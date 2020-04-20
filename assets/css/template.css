@@ -4485,7 +4485,7 @@ body .header .h-icons .hi-left {
 
 body .header .h-icons .hi-right {
   right: 0;
-  top: 155px;
+  top: 280px;
 }
 
 body .header .h-row .row {
@@ -4512,7 +4512,7 @@ body .header .h-top .buttons .order:not(:last-of-type) {
   margin-bottom: 30px;
 }
 
-body .header .h-top .buttons .order a.more,
+/* body .header .h-top .buttons .order a.more,
 body .create .order a.more {
   background: #eff0f8; 
   color: #626266;
@@ -4522,7 +4522,7 @@ body .header .h-top .buttons .order a.more:hover,
 body .create .order a.more:hover  {
   background: gray;
   color: #ffffff;
-}
+} */
 
 body .header .h-bottom {
   text-align: left;
@@ -4786,7 +4786,7 @@ body .month .program .p-row .pp-right.pp-r-3 {
   position: relative;
 }
 
-body .month .program .p-row .pp-right.pp-r-3::before {
+/* body .month .program .p-row .pp-right.pp-r-3::before {
   position: absolute;
   content: '';
   background: url(../images/canon-pr3.png);
@@ -4794,7 +4794,7 @@ body .month .program .p-row .pp-right.pp-r-3::before {
   height: 341px;
   top: -69px;
   right: -208px;
-}
+} */
 
 body .month .program .p-row .pp-right .min-title {
   display: -webkit-flex;
@@ -4960,6 +4960,7 @@ body .speakers .s-block .subs {
 body .speakers .s-block .subs .min-title {
   font-size: 24px;
   padding: 0 0 0 20px;
+  min-height: 60px;
 }
 
 body .packets {
@@ -6479,6 +6480,14 @@ body .form-modal .modal-dialog .modal-content .modal-body {
   .form-modal .title {
     font-size: 32px;
     line-height: 40px;
+  }
+
+  .header .h-top {
+    margin-top: 30px;
+  }
+
+  .header .hi-left {
+    display: none;
   }
 }
 
