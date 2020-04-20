@@ -4512,12 +4512,14 @@ body .header .h-top .buttons .order:not(:last-of-type) {
   margin-bottom: 30px;
 }
 
-body .header .h-top .buttons .order a.more {
-  background: #eff0f8;
+body .header .h-top .buttons .order a.more,
+body .create .order a.more {
+  background: #eff0f8; 
   color: #626266;
 }
 
-body .header .h-top .buttons .order a.more:hover {
+body .header .h-top .buttons .order a.more:hover,
+body .create .order a.more:hover  {
   background: gray;
   color: #ffffff;
 }
@@ -5248,7 +5250,7 @@ body .feeds .slider {
 }
 
 body .feeds .slider img {
-  max-width: 100%;
+  max-width: 490px;
 }
 
 body .feeds .slider .arrows a {
@@ -5670,9 +5672,9 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
     padding: 50px 0;
   }
 
-  body .packets .p-blocks .p-block.pab-1 .p-bottom {
+  /* body .packets .p-blocks .p-block.pab-1 .p-bottom {
     margin: 339px 0 25px 0;
-  }
+  } */
 
   body .packets .p-blocks .p-block .p-bottom .new {
     font-size: 34px;
