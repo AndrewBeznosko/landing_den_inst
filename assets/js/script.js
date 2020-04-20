@@ -68,7 +68,18 @@ $(document).ready(function(){
     
     
     
-    
+    $(".btn-toggle-modal").on('click', function(e) {
+        e.preventDefault();
+        let old_price = $(this).data('old-price'),
+            new_price = $(this).data('new-price'),
+            program_desc = $(this).data('program-desc');
+
+        let modal = $('#registration-2');
+        modal.modal('show');
+        modal.find('#old_price').text(old_price);
+        modal.find('#new_price').text(new_price);
+        modal.find('#program_desc').text(program_desc);
+    })
 });
 
 if ($(window).width() < 768) {

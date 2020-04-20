@@ -77,12 +77,17 @@
                                 <div class="buttons">
                                     <div class="order">
                                         <a class="purp go-to-block" data-target=".packets" href="#">
-                                            ДЕЙСТВОВАТЬ
+                                            УЧАСТВОВАТь
                                         </a>
                                     </div>
                                     <div class="order">
-                                        <a href="#" data-target=".program" class="more go-to-block">
-                                            Подробнее
+                                        <a href="#" data-old-price="495" data-new-price="99" data-program-desc="полный курс" class="more btn-toggle-modal">
+                                            Полный курс
+                                        </a>
+                                    </div>
+                                    <div class="order">
+                                        <a href="#" data-old-price="495" data-new-price="39" data-program-desc="для участников ВН-Старт" class="more btn-toggle-modal">
+                                            Для участников Виртуальный наставник-Старт
                                         </a>
                                     </div>
                                 </div>
@@ -1239,6 +1244,48 @@
             </div>
         </footer>
 
+    </div>
+
+    <!-- MODALS -->
+    <div class="modal form-modal fade" id="registration-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-header">
+                    <img class="progress-img" src="/assets/7/images/p.png" alt="">
+                    <div class="title">
+                        Получите доступ к онлайн-курсу Виртуальный наставник-Стандарт
+                        <div class="my-3">(<span id="program_desc"></span>)</div>
+                        всего за <span class="old-price-throwline">$<span id="old_price">495</span></span> $<span id="new_price">99</span>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <form accept-charset="utf-8" action="/7-shagov-online-biznesa" method="post">
+                        <div class="inputblock">
+                            <input class="text-input" id="top-form-name" name="name" placeholder="Ваше имя и фамилия" required="">
+                        </div>
+                        <div class="inputblock">
+                            <input class="text-input" id="top-form-email" name="email" placeholder="Ваш E-Mail" required="" type="text">
+                        </div>
+                        <div class="inputblock">
+                            <input class="text-input" id="top-form-phone" name="phone" placeholder="Ваш телефон" required="" type="tel">
+                        </div>
+                        <div class="hidden">
+                            <input name="landing" type="hidden" value="7_lessons">
+                            <input type="hidden" name="ref" value="">
+                                <input type="hidden" name="atr" value=""> 
+                            <input type="hidden" name="_token" value="91hQwMhTEymsseeS58Kfa6QOCulixeuGSPercuqs">                        </div>
+                        <div class="order">
+                            <button class="red pre-send" type="button">
+                                ПОЛУЧИТЬ ДОСТУП
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./assets/plugins/jquery/jquery-3.2.0.min.js?t=1587376877"></script>
