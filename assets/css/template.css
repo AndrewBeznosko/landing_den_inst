@@ -4729,6 +4729,11 @@ body .month .program .p-rows {
   padding: 60px 60px 50px 50px;
 }
 
+body .month .program .p-rows.bonuses .p-row .pp-right {
+  background: url('../images/result-bg-pc.jpg') no-repeat center top / cover;
+  color: #fff;
+}
+
 body .month .program .p-row:not(:first-of-type) {
   margin: 46px 0 0;
 }
