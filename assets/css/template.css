@@ -5015,6 +5015,14 @@ body .packets .p-blocks .p-block .min-title .txt {
   font-size: 20px;
 }
 
+body .packets .p-blocks .p-block .min-title .txt.txt-price {
+  font-weight: 700;
+  font-family: "DIN Pro Condensed";
+  text-transform: uppercase;
+  font-size: 35px;
+  line-height: 1.3;
+}
+
 body .packets .p-blocks .p-block .p-list .p-inn {
   margin: 25px 0 0 0;
   padding: 0 0 0 22px;
@@ -6493,6 +6501,10 @@ body .form-modal .modal-dialog .modal-content .modal-body {
   body .packets .p-blocks .p-block .min-title .txt {
     width: 100%;
     text-align: center;
+  }
+
+  body .packets .p-blocks .p-block .min-title .txt.txt-price {
+    
   }
 
   .packets .title {
