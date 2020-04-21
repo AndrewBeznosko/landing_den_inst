@@ -6489,6 +6489,15 @@ body .form-modal .modal-dialog .modal-content .modal-body {
   .header .hi-left {
     display: none;
   }
+
+  body .packets .p-blocks .p-block .min-title .txt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .packets .title {
+    text-align: center;
+  }
 }
 
 /*modal comeback*/
