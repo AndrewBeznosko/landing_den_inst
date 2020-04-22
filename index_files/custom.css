@@ -59,3 +59,25 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+@media screen and (min-width: 767.98px) {
+    .tn-elem__1813034441586893754740 {
+        margin-left: -65px;
+    }
+}
+
+.hit-sticker__wrapp {
+    position: relative;
+    overflow: hidden;
+}
+
+.hit-sticker {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    transform: translate(50%, 50%) rotate(45deg);
+    background: #10356c;
+    color: #fff;
+    width: 122px;
+    text-align: center;
+}
