@@ -690,7 +690,7 @@ body .turn .t-left .s-list p.big:before {
   top: 0;
   width: 28px;
   height: 19px;
-  background: url(../images/ok.png) no-repeat center top;
+  background: url(./ok.png) no-repeat center top;
 }
 body .turn .t-right img {
   margin: 0 0 0 -310px;
@@ -746,7 +746,7 @@ body .possibility .poss-inner:before {
   top: -100px;
   width: 230px;
   height: 209px;
-  background: url(../images/p-gold.png) no-repeat center top / contain;
+  background: url(./p-gold.png) no-repeat center top / contain;
 }
 body .possibility .poss-inner .poss-top {
   padding: 75px 15px 45px 15px;
