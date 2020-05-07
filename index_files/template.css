@@ -755,13 +755,14 @@ body .possibility .poss-inner .poss-top {
   padding: 75px 15px 45px 15px;
 }
 body .possibility .poss-inner .poss-top .title {
-  font-size: 30px;
+  font-size: 34px;
   line-height: 1;
-  margin: 0 0 12px 0;
+  margin: 0 0 25px 0;
+  color:#4996ff
 }
 body .possibility .poss-inner .poss-top p {
-  font-size: 20px;
-  line-height: 21px;
+  font-size: 21px;
+  line-height: 25px;
 }
 body .possibility .poss-inner .poss-bottom {
   padding: 45px 0 40px 0;
@@ -1651,8 +1652,10 @@ body.thanks .want .w-bottom .once {
     width: 100%;
   }
   body .header .h-middle .title {
-    font-size: 28px;
-    line-height: 1.4;
+    font-size: 37px;
+    line-height: 1.1;
+    max-width: 304px;
+    margin: 20px auto;
   }
   body .header .h-middle .hm-right {
     max-width: 320px;
@@ -1704,13 +1707,19 @@ body.thanks .want .w-bottom .once {
     justify-content: center;
   }
   body .you .y-block {
-    margin: 32px 0 0 0;
+    margin: 40px 0 0 0;
+    display: flex;
+    text-align: left;
+    align-items: center;
   }
   body .you .y-block .y-number {
     font-size: 80px;
     font-weight: 400;
     line-height: 59px;
-    margin: 0 0 16px 0;
+    margin: 0 15px 0 0;
+  }
+  body .you .y-block p {
+    font-size: 23px;
   }
   body .this .this-inner {
     padding: 40px 16px 55px 16px;
