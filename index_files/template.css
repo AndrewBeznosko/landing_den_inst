@@ -632,10 +632,13 @@ body .you .y-block {
 }
 body .you .y-block .y-number {
   color: #4996ff;
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 400;
   line-height: 80px;
   margin: 0 0 23px 0;
+}
+body .you .y-block p {
+  font-size: 20px;
 }
 body .this .this-inner {
   padding: 65px 85px 92px 85px;
@@ -757,7 +760,7 @@ body .possibility .poss-inner .poss-top .title {
   margin: 0 0 12px 0;
 }
 body .possibility .poss-inner .poss-top p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 21px;
 }
 body .possibility .poss-inner .poss-bottom {
