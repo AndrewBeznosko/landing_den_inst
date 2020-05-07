@@ -505,8 +505,8 @@ body .header .h-middle .min-title span {
   z-index: 2;
 }
 body .header .h-middle .title {
-  font-size: 55px;
-  line-height: 65px;
+  font-size: 85px;
+  line-height: 1.1;
 }
 body .header .h-middle .hm-right {
   margin: -150px 0px -199px -50px;
@@ -1651,8 +1651,8 @@ body.thanks .want .w-bottom .once {
     width: 100%;
   }
   body .header .h-middle .title {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 28px;
+    line-height: 1.4;
   }
   body .header .h-middle .hm-right {
     max-width: 320px;
