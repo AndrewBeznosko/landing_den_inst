@@ -1989,3 +1989,7 @@ body.thanks .want .w-bottom .once {
     font-size: 40px;
   }
 }
+
+.socials .fab {
+  filter: drop-shadow(1px 1px 3px rgba(0,0,0, 0.4));
+}

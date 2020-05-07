@@ -1964,3 +1964,14 @@ body.thanks .want .w-bottom .once {
   }
 }
 .col-md-auto{width:300px;}
+
+
+@media (max-width: 767.98px) {
+  .header .order {
+    margin-bottom: 30px;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+}
