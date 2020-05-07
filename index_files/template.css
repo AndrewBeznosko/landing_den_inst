@@ -505,7 +505,7 @@ body .header .h-middle .min-title span {
   z-index: 2;
 }
 body .header .h-middle .title {
-  font-size: 85px;
+  font-size: 75px;
   line-height: 1.1;
 }
 body .header .h-middle .hm-right {
@@ -785,7 +785,7 @@ body .possibility .poss-inner .poss-bottom .p-block p {
   font-size: 14px;
 }
 body .footer {
-  padding: 0 0 45px 0;
+  padding: 45px 0 45px 0;
 }
 body .footer p {
   font-size: 16px;
