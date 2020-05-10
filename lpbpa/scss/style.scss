@@ -144,7 +144,7 @@ body.f-nav .top_container {
 }
 
 header {
-     background: url(../images/header.png) no-repeat left top; 
+     background: url(../img/header.png) no-repeat left top; 
     position: relative;
     padding-top: 90px;
     margin-bottom: 130px;
@@ -158,7 +158,7 @@ header::before {
     content: '';
     display: block;
     z-index: 2;
-    background: url(../images/grad.png) center no-repeat;
+    background: url(../img/grad.png) center no-repeat;
     background-size: cover;
 }
 
@@ -221,7 +221,7 @@ header.consalt {
     float: none;
 }
 .window_1 {
-    background: url('../images/window.png');
+    background: url('../img/window.png');
     width: 18px;
     height: 71px;
     position: absolute;
@@ -239,7 +239,7 @@ header.consalt {
     top: 259px;
     z-index: 1;
     opacity: 0;
-    background: url('../images/window_2.png');
+    background: url('../img/window_2.png');
      animation:wind2 6s ease-in-out infinite;
 }
 .window_3 {
@@ -250,7 +250,7 @@ header.consalt {
     top: 274px;
     z-index: 1;
     opacity: 0;
-    background: url('../images/window_3.png');
+    background: url('../img/window_3.png');
      animation:wind3 4s ease-in-out infinite;
 }
 @keyframes wind1{
@@ -311,7 +311,7 @@ header.consalt {
 .bottom_arr {
     position: absolute;
     left: 50%;
-    background: url('../images/arr_gray.png');
+    background: url('../img/arr_gray.png');
     width: 30px;
     bottom: -60px;
     cursor: pointer;
@@ -482,7 +482,7 @@ button.g_button.disabled:hover {
 .all_time_pict {
     float: right;
     width: 400px;
-    background: url('../images/money.jpg');
+    background: url('../img/money.jpg');
     height: 400px;
     position: relative;
 }
@@ -501,12 +501,12 @@ button.g_button.disabled:hover {
     display: block;
     width: 80px;
     height: 80px;
-    background: url('../images/arr.png') no-repeat center center;
+    background: url('../img/arr.png') no-repeat center center;
 }
 #maps {
     color: #fff;
     margin-bottom: 160px;
-    background: url('../images/maps.jpg') no-repeat center center;
+    background: url('../img/maps.jpg') no-repeat center center;
      background-size: cover;
     padding: 80px 0 150px 0;
     position: relative;
@@ -552,11 +552,11 @@ button.g_button.disabled:hover {
     color: #1e82ff;
 }
 .maps_list ul {
-    background: url('../images/sum.png') no-repeat left center;
+    background: url('../img/sum.png') no-repeat left center;
     padding-left: 90px;
 }
 .maps_list ul li {
-    background: url('../images/check.png') no-repeat left top;
+    background: url('../img/check.png') no-repeat left top;
     padding-left: 35px;
     font-size: 18px;
     margin-bottom: 22px;
@@ -585,7 +585,7 @@ button.g_button.disabled:hover {
 .spicker_descript ul li {
 margin-bottom: 20px;
 padding-left: 30px;
-background: url('../images/check.png') no-repeat left center;
+background: url('../img/check.png') no-repeat left center;
 }
 
 #repl {
@@ -619,7 +619,7 @@ footer {
     position: relative;
      padding-top: 40px;
     padding-bottom: 20px;
-       background: url(../images/header.png)  no-repeat left top; 
+       background: url(../img/header.png)  no-repeat left top; 
     z-index: 2;
 }
 footer::before {
@@ -631,7 +631,7 @@ footer::before {
 
     display: block;
     z-index: 2;
-    background: url(../images/grad.png) center no-repeat;
+    background: url(../img/grad.png) center no-repeat;
      background-size: cover;
 }
 
@@ -688,7 +688,7 @@ header.thx .header_text {
     margin-bottom: 50px;
 }
 .descript_book_text ul li {
-    background: url('../images/check.png') no-repeat left;
+    background: url('../img/check.png') no-repeat left;
     padding-left: 40px;
     margin-bottom: 10px;
 }
@@ -861,7 +861,7 @@ footer .header_form .bottom_arr {
     float: right;
 }
 .step_list ul li {
-    background: url('../images/check.png') no-repeat left top;
+    background: url('../img/check.png') no-repeat left top;
     padding-left: 40px;
     margin-bottom: 15px;
 }
