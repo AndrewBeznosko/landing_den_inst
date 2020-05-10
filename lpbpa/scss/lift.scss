@@ -1935,6 +1935,10 @@ font-weight: bold;
             -webkit-filter: blur(120px);
             filter: blur(120px)
         }
+
+        .authors {
+            padding-top: 160px;
+        }
     }
 
     @media (min-width:1200px) {
@@ -3151,6 +3155,10 @@ font-weight: 900;;
             height: 600px;
             -webkit-filter: blur(170px);
             filter: blur(170px)
+        }
+
+        .section.programm {
+            padding-top: 150px;
         }
     }
 

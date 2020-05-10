@@ -505,7 +505,7 @@ button.g_button.disabled:hover {
 }
 #maps {
     color: #fff;
-    margin-bottom: 160px;
+    // margin-bottom: 160px;
     background: url('../img/maps.jpg') no-repeat center center;
      background-size: cover;
     padding: 80px 0 150px 0;
@@ -516,6 +516,7 @@ button.g_button.disabled:hover {
 }
 #maps .header_form {
     bottom: -63px;
+    z-index: 2;
 }
 #maps p {
     margin-bottom: 50px;
