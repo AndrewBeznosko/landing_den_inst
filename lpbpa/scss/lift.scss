@@ -2142,7 +2142,8 @@ font-weight: 900;;
 
     .authors-item__list li strong {
         font-family: 'proxima_nova';
-font-weight: 900;
+        font-weight: 500;
+        font-size: 20px; 
     }
 
     @media (min-width:1025px) {
@@ -3348,7 +3349,7 @@ font-weight: bold;
     @media (max-width:767px) {
         .programm-item__image_2 {
             top: 25%;
-            left: -160px;
+            left: -60px; 
             z-index: 2;
             max-width: 350px
         }
@@ -4442,5 +4443,14 @@ font-weight: 900;
 
     .slick-arrow.slick-hidden {
         display: none
+    }
+
+    @media (max-width: 767.98px) {
+        // .authors-item_1 .authors-item__info-title, 
+        .authors-item_1 .authors-item__list strong,
+        // .authors-item_2 .authors-item__info-title, 
+        .authors-item_2 .authors-item__list strong {
+            color: #fff; 
+        }
     }
 }

@@ -196,7 +196,7 @@ padding-top: 30px;
     padding: 20px;
     border-radius: 5px;
     bottom: -200px;
-    left: 43%;
+    left: 36%;
     margin-left: -400px;
     box-shadow: 0 0px 32px 9px rgba(0, 0, 0, 0.3);
 }
@@ -354,7 +354,7 @@ input.input_text::-ms-input-placeholder      {color:#000;}
 button.g_button {
     font-size: 18px;
     color: #fff;
-    width: 380px;
+    width: 260px;
     background: #1e82ff;
     text-align: center;
     padding: 24px 0px;
@@ -517,6 +517,7 @@ button.g_button.disabled:hover {
 #maps .header_form {
     bottom: -63px;
     z-index: 2;
+    left: 41%;
 }
 #maps p {
     margin-bottom: 50px;
@@ -781,7 +782,7 @@ footer .header_form {
     bottom: auto;
     margin: 30px auto;
     left: auto;
-    width: 85%;
+    width: 100%;
 }
 footer .header_form .bottom_arr {
     display: none;
