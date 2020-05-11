@@ -873,3 +873,75 @@ footer .header_form .bottom_arr {
 .step_item p {
     margin-bottom: 30px;
 }
+
+// custom
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+header {
+    padding: 90px 0;
+
+    .container_header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin-top: 51px;
+        margin-bottom: 50px;
+    }
+
+    .header_text {
+        text-align: left;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 30px;
+
+        h1 {
+            text-align: left;
+            font-size: 67px;
+            line-height: 1.4;
+        }
+
+        & > p {
+            text-align: left;
+            margin: 0;
+            margin-top: 20px;
+
+            & > span {
+                margin-top: 15px;
+                display: inline-block;
+            }
+        }
+    }
+    
+    .video-row {
+        max-width: 500px;
+        min-width: 500px;
+        margin: 0 auto;
+    }
+
+    .videoWrapper {
+        box-shadow: 0 0px 32px 9px rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    .js-nextDate {
+
+    }
+}
