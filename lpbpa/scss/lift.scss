@@ -3343,7 +3343,8 @@ font-weight: bold;
         .programm-item__image_1 {
             top: -5%;
             left: 17%;
-            width: 740px
+            width: 740px;
+            z-index: -1;
         }
     }
 
