@@ -893,13 +893,13 @@ footer .header_form .bottom_arr {
 }
 
 header {
-    padding: 90px 0;
+    padding: 90px 0 30px;
 
     .container_header {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        align-items: center;
+        align-items: flex-start;
         margin-top: 51px;
         margin-bottom: 50px;
     }
@@ -925,6 +925,7 @@ header {
             & > span {
                 margin-top: 15px;
                 display: inline-block;
+                margin-bottom: 15px;
             }
         }
     }
@@ -993,4 +994,30 @@ header {
             font-size: 20px;
         }
     } 
+}
+
+.block-book {
+    p {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 5px 0 25px;
+    }
+
+    .g_button {
+        margin-left: 0;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    @media (max-width: 767.98px) {
+        .g_button {
+            max-width: 100%;
+            min-width: 0;
+            width: 100%;
+        }
+    }
+}
+
+.header_text.second {
+    margin: 0;
 }

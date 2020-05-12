@@ -2000,9 +2000,11 @@ font-weight: bold;
         }
     }
 
-    .authors-item_1 .authors-item__info-title,
-    .authors-item_1 .authors-item__list strong {
+    .authors-item_1 .authors-item__info-title {
         color: #f70f31
+    }
+    .authors-item_1 .authors-item__list strong {
+        color: #fff
     }
 
     .authors-item_1 .authors-item__info:before {
@@ -2013,9 +2015,12 @@ font-weight: bold;
         border-left-color: #f70f31
     }
 
-    .authors-item_2 .authors-item__info-title,
-    .authors-item_2 .authors-item__list strong {
+    .authors-item_2 .authors-item__info-title {
         color: #00bde3
+    }
+
+    .authors-item_2 .authors-item__list strong {
+        color: #fff;
     }
 
     .authors-item_2 .authors-item__info:before {
