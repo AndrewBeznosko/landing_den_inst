@@ -25,6 +25,22 @@
 .tariff__block {
     background-color: #36353a;
     padding: 30px 20px 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hit-sticker {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    transform: translate(50%, 50%) rotate(45deg);
+    background: #f43d2f;
+    color: #fff;
+    width: 122px;
+    text-align: center;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
 }
 
 .tariff__block + .tariff__block {
@@ -54,6 +70,11 @@
     background-position: center center;
     border-color: transparent;
     border-style: solid;
+}
+
+.tariff-item--disable{
+    text-decoration: line-through;
+    opacity: 0.4;
 }
 
 .tariff__btn {
@@ -120,5 +141,13 @@
 
     .sec_title {
         font-size: 24px;
+    }
+
+    .tn-atom.tn-atom__form {
+        max-width: 310px;
+    }
+
+    .t-submit {
+        max-width: 310px;
     }
 }
