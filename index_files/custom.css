@@ -1,0 +1,124 @@
+.tarifs {
+    background-color: #26262a;
+    padding: 60px 0;
+}
+
+.sec_title {
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 1.4;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tarifs__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.tariff__block {
+    background-color: #36353a;
+    padding: 30px 20px 50px;
+}
+
+.tariff__block + .tariff__block {
+    margin-left: 30px;
+}
+
+.tariff__title {
+    color: #ffffff;
+    font-size: 19px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+    margin: 10px 0 30px;
+    letter-spacing: .5px;
+}
+
+.tariff__block_list {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 2;
+    font-weight: 300;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.tariff__btn {
+    color: #ffffff !important;
+    font-size: 14px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: #d33f33;
+    background-position: center center;
+    border-color: #222222;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 1;
+    margin: 0 auto;
+}
+
+.tariff__prices {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 1.85;
+    font-weight: 600;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+.tariff__old-price b {
+    text-decoration: line-through;
+}
+
+.tariff__new-price {
+    color: #d33f33;
+    font-size: 26px;
+    font-family: 'FuturaPT', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin: 2px 0;
+}
+
+@media (max-width: 767.98px) {
+    .tarifs__container {
+        flex-wrap: wrap;
+    }
+
+    .tariff__block + .tariff__block {
+        margin-left: 0px;
+        margin-top: 30px;
+    } 
+
+    .sec_title {
+        font-size: 24px;
+    }
+}
