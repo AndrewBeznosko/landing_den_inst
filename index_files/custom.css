@@ -151,3 +151,13 @@
         max-width: 310px;
     }
 }
+
+.t-radio__wrapper-payment {
+    display: flex;
+    align-items: center;
+}
+
+.t-radio__wrapper-payment .t-radio__control {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
