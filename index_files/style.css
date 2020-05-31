@@ -70,7 +70,7 @@ body {
   background: #fff;
   position: relative;
   overflow-x: hidden;
-  min-width: 1200px;
+  /* min-width: 1200px; */
 }
 
 *, :before, :after {
