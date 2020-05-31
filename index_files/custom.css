@@ -1,6 +1,11 @@
 .tarifs {
-    background-color: #26262a;
+    background-color: #26262a; 
     padding: 60px 0;
+    background-image: url('./tarif_bg.webp');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .sec_title {
