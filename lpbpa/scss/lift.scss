@@ -3243,7 +3243,7 @@ font-weight: 900;;
 
     @media (min-width:1025px) {
         .programm__header-subtitle {
-            margin-left: 150px
+            margin-left: 45px
         }
     }
 
@@ -3342,8 +3342,9 @@ font-weight: bold;
     @media (min-width:1200px) {
         .programm-item__image_1 {
             top: -5%;
-            left: 17%;
-            width: 740px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 530px;
             z-index: -1;
         }
     }
@@ -3380,7 +3381,8 @@ font-weight: bold;
     @media (min-width:1200px) {
         .programm-item__image_2 {
             top: 5%;
-            right: 67%;
+            left: 50%;
+            transform: translateX(-50%);
             width: 450px
         }
     }
@@ -4457,6 +4459,10 @@ font-weight: 900;
         // .authors-item_2 .authors-item__info-title, 
         .authors-item_2 .authors-item__list strong {
             color: #fff; 
+        }
+
+        .programm-item__image {
+            display: none !important; 
         }
     }
 }
