@@ -1,5 +1,5 @@
 .tarifs {
-    background-color: #26262a; 
+    background-color: #26262a;
     padding: 60px 0;
     background-image: url('./tarif_bg.webp');
     background-position: center center;
@@ -25,6 +25,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
 .tariff__block {
@@ -142,7 +143,7 @@
     .tariff__block + .tariff__block {
         margin-left: 0px;
         margin-top: 30px;
-    } 
+    }
 
     .sec_title {
         font-size: 24px;
