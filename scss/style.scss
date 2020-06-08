@@ -144,7 +144,7 @@ body.f-nav .top_container {
 }
 
 header {
-    background-image: url(../img/header_bg.jpg);
+    background-image: url(../img/header_bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -195,7 +195,7 @@ padding-top: 30px;
 .header_form {
     position: absolute;
     background: #fff;
-  
+
     padding: 20px;
     border-radius: 5px;
     bottom: -200px;
@@ -624,7 +624,7 @@ footer {
     position: relative;
      padding-top: 40px;
     padding-bottom: 20px;
-    background-image: url(../img/header_bg.jpg);
+    background-image: url(../img/header_bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -919,8 +919,8 @@ header {
 
         h1 {
             text-align: left;
-            font-size: 67px;
-            line-height: 1.4;
+            font-size: 50px;
+            line-height: 1.2;
         }
 
         & > p {
@@ -930,12 +930,12 @@ header {
 
             & > span {
                 margin-top: 15px;
-                display: inline-block;
+                display: ruby-base;
                 margin-bottom: 15px;
             }
         }
     }
-    
+
     .video-row {
         max-width: 500px;
         min-width: 500px;
@@ -957,7 +957,7 @@ header {
 .footer {
     padding: 50px 0;
     color: gray;
-    
+
     a {
         color: gray;
     }
@@ -992,14 +992,14 @@ header {
         margin-top: 15px;
 
         & > p {
-            margin-right: 10px; 
+            margin-right: 10px;
         }
 
         .soc a {
             padding: 5px;
             font-size: 20px;
         }
-    } 
+    }
 }
 
 .block-book {
@@ -1036,7 +1036,7 @@ header {
 	animation-name: example1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    
+
     &::before {
         content:'';
         display: block;
@@ -1089,11 +1089,11 @@ header {
             justify-content: flex-start;
             flex-wrap: wrap;
             flex-direction: column;
-    
+
             p {
                 margin-left: 0;
                 margin-bottom: 10px;
-            } 
+            }
         }
     }
 
