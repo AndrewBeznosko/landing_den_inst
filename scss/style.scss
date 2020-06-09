@@ -180,7 +180,7 @@ padding-top: 30px;
   margin-bottom: 20px;
 }
 .header_text > p {
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 70px;
     font-weight: 900;
@@ -925,12 +925,13 @@ header {
 
         & > p {
             text-align: left;
-            margin: 0;
+            // margin: 0;
             margin-top: 20px;
+            margin-bottom: 40px;
 
             & > span {
                 margin-top: 15px;
-                display: ruby-base;
+                display: inline-block;
                 margin-bottom: 15px;
             }
         }
