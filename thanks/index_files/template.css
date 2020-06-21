@@ -113,7 +113,7 @@ body .y-line span {
 }
 body .wrapper {
   position: relative;
-  background: #ffffff url(../images/body-bg.jpg) no-repeat center top 436px;
+  /* background: #ffffff url(../images/body-bg.jpg) no-repeat center top 436px; */
   overflow: hidden;
 }
 body .wrapper .body-img {
