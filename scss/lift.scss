@@ -1912,29 +1912,7 @@ font-weight: bold;
         font-size: 12px
     }
 
-    .authors:after,
-    .authors:before {
-        position: absolute;
-        top: -10%;
-        z-index: -1;
-        width: 300px;
-        height: 300px;
-        content: "";
-        -webkit-filter: blur(100px);
-        filter: blur(100px);
-        -webkit-border-radius: 100%;
-        border-radius: 100%
-    }
-
     @media (min-width:1025px) {
-
-        .authors:after,
-        .authors:before {
-            width: 400px;
-            height: 400px;
-            -webkit-filter: blur(120px);
-            filter: blur(120px)
-        }
 
         .authors {
             padding-top: 160px;
@@ -1956,17 +1934,6 @@ font-weight: bold;
         position: relative;
         z-index: 1;
         overflow: hidden;
-        color: #fff;
-        background-color: #0e0e0e
-    }
-
-    .authors:before {
-        left: -10%;
-        background-color: #00bde3
-    }
-
-    .authors:after {
-        background-color: #f70f31
     }
 
     @media (max-width:767px) {
@@ -2004,7 +1971,7 @@ font-weight: bold;
         color: #f70f31
     }
     .authors-item_1 .authors-item__list strong {
-        color: #fff
+        color: #000
     }
 
     .authors-item_1 .authors-item__info:before {
@@ -2020,7 +1987,7 @@ font-weight: bold;
     }
 
     .authors-item_2 .authors-item__list strong {
-        color: #fff;
+        color: #000;
     }
 
     .authors-item_2 .authors-item__info:before {
@@ -2148,7 +2115,7 @@ font-weight: 900;;
     .authors-item__list li strong {
         font-family: 'proxima_nova';
         font-weight: 500;
-        font-size: 20px; 
+        font-size: 20px;
     }
 
     @media (min-width:1025px) {
@@ -3170,13 +3137,9 @@ font-weight: 900;;
 
     .programm {
         overflow: hidden;
-        color: #fff;
-        background-color: #0e0e0e
     }
 
     .programm:before {
-        left: -5%;
-        background-color: #00bde3
     }
 
     @media (min-width:1025px) {
@@ -3186,8 +3149,7 @@ font-weight: 900;;
     }
 
     .programm:after {
-        right: -5%;
-        background-color: #f70f31
+
     }
 
     @media (max-width:767px) {
@@ -3228,7 +3190,10 @@ font-weight: 900;;
 
     @media (min-width:1200px) {
         .programm__header-title {
-            font-size: 72px
+            font-size: 72px;
+            background: linear-gradient(45deg, #820417, #f70f31);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
 
@@ -3355,7 +3320,7 @@ font-weight: bold;
     @media (max-width:767px) {
         .programm-item__image_2 {
             top: 25%;
-            left: -60px; 
+            left: -60px;
             z-index: 2;
             max-width: 350px
         }
@@ -3389,9 +3354,10 @@ font-weight: bold;
         font-family: 'proxima_nova';
 font-weight: 900;;
         font-size: 60px;
-        color: #000000;
         text-transform: uppercase;
-        opacity: .3
+        background: linear-gradient(45deg, #820417, #f70f31);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     @media (max-width:767px) {
@@ -3439,7 +3405,7 @@ font-weight: 900;;
 
     .programm-item__info-cube {
         padding: 10px 10px 20px 10px;
-        border: 5px solid #fff
+        border: 5px solid #000
     }
 
     @media (min-width:1025px) {
@@ -4452,11 +4418,11 @@ font-weight: 900;
     }
 
     @media (max-width: 767.98px) {
-        // .authors-item_1 .authors-item__info-title, 
+        // .authors-item_1 .authors-item__info-title,
         .authors-item_1 .authors-item__list strong,
-        // .authors-item_2 .authors-item__info-title, 
+        // .authors-item_2 .authors-item__info-title,
         .authors-item_2 .authors-item__list strong {
-            color: #fff; 
+            color: #000;
         }
     }
 }

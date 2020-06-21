@@ -4311,16 +4311,16 @@ p,
 }
 .thanks-page .th-header .container {
   position: relative;
-  padding-bottom: 270px;
+  padding-bottom: 310px;
 }
 .thanks-page .th-header .container::before {
   content: '';
   position: absolute;
-  right: 0;
+  right: 50px;
   bottom: 0;
   background: url(th-hd-img.png) no-repeat center / contain;
   width: 482px;
-  height: 420px;
+  height: 470px;
   z-index: 5;
 }
 .thanks-page .th-header .title-block {
@@ -4360,15 +4360,16 @@ p,
 }
 @media (max-width: 767px) {
   .thanks-page .th-header {
-    padding: 15px 0 0;
+    padding: 15px 0 170px;
   }
   .thanks-page .th-header .container {
     padding-bottom: 160px;
   }
   .thanks-page .th-header .container::before {
     width: 282px;
-    height: 290px;
-    right: -86px;
+    height: 280px;
+    right: 40px;
+    top: 165px;
   }
   .thanks-page .th-header .title-block {
     padding: 15px 0 0;
