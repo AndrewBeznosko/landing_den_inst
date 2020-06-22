@@ -4398,15 +4398,26 @@ p,
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 35%;
   width: 1px;
   background: #dddddd;
 }
+.thanks-page .maybe .congrats-block .cg-left {
+  padding: 0 0 0 35px;
+}
+
+.thanks-page .socials-title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
 .thanks-page .maybe .congrats-block .cg-left .bot-block {
   margin: 5px 0 0;
 }
 .thanks-page .maybe .congrats-block .cg-left .bot-block .socials {
   margin: 10px 0 0;
+  justify-content: center;
 }
 .thanks-page .maybe .congrats-block .cg-left .bot-block .socials a {
   display: inline-flex;
@@ -4441,7 +4452,7 @@ p,
   margin-left: 16px;
 }
 .thanks-page .maybe .congrats-block .cg-right {
-  padding: 0 0 0 35px;
+  /* padding: 0 0 0 35px; */
   max-width: 375px;
 }
 .thanks-page .maybe .congrats-block .cg-right p:not(:first-of-type) {
@@ -5048,11 +5059,32 @@ p,
   font-size: 14px;
   line-height: 17px;
 }
+
+.thanks-page .cg-right_img {
+  max-width: 270px;
+  margin-top: -80px;
+}
+
+.thanks-page .maybe .congrats-block .cg-right {
+    text-align: center;
+    margin: 0;
+    max-width: 100%;
+}
+
 @media (max-width: 767px) {
   body.modal-open {
     overflow: hidden;
   }
   body.modal-open .wrapper {
     display: none;
+  }
+
+  .thanks-page .cg-right_img {
+    display: none;
+  }
+
+  .thanks-page .maybe .congrats-block .cg-left {
+    margin: 20px 0;
+    padding: 0 10px;
   }
 }
