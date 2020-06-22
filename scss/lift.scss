@@ -1439,6 +1439,10 @@ font-weight: bold;
         margin-bottom: 30px
     }
 
+    .header_mobile_title {
+        display: none;
+    }
+
     @media (min-width:768px) {
         .section__header {
             margin-bottom: 45px
@@ -1934,6 +1938,12 @@ font-weight: bold;
         position: relative;
         z-index: 1;
         overflow: hidden;
+    }
+
+    .authors__header-title {
+        background: linear-gradient(45deg, #820417, #f70f31);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     @media (max-width:767px) {
@@ -3358,6 +3368,7 @@ font-weight: 900;;
         background: linear-gradient(45deg, #820417, #f70f31);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        opacity: 0.2;
     }
 
     @media (max-width:767px) {
@@ -3408,6 +3419,18 @@ font-weight: 900;;
         border: 5px solid #000
     }
 
+    .programm-item_1 .programm-item__info-cube {
+        border-color: #00bde3;
+    }
+    .programm-item_2 .programm-item__info-cube {
+        border-color: #f70f31;
+    }
+
+    .programm-item__content {
+        background: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+    }
+
     @media (min-width:1025px) {
         .programm-item__info-cube {
             width: 85%;
@@ -3428,19 +3451,21 @@ font-weight: bold;
 
     @media (min-width:1025px) {
         .programm-item__info-date {
-            padding-right: 30px;
-            padding-left: 30px;
+            padding-right: 28px;
+            padding-left: 27px;
             margin-bottom: 30px;
             margin-left: -30px
         }
     }
 
     .programm-item__info-date_1 {
-        background-color: #f70f31
+        background-color: #f70f31;
+        color: #fff
     }
 
     .programm-item__info-date_2 {
-        background-color: #00bde3
+        background-color: #00bde3;
+        color: #fff
     }
 
     .programm-item__info-title {
