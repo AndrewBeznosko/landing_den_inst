@@ -3284,7 +3284,7 @@ font-weight: bold;
 
     @media (min-width:768px) {
         .programm-item__image {
-            z-index: 2;
+            z-index: -1;
             max-width: none
         }
     }
@@ -3292,17 +3292,17 @@ font-weight: bold;
     @media (max-width:767px) {
         .programm-item__image_1 {
             top: 13%;
-            left: 9%;
-            width: 400px;
+            left: 16%;
+            width: 390px;
             max-width: none
         }
     }
 
     @media (min-width:768px) {
         .programm-item__image_1 {
-            top: -6%;
-            left: 15%;
-            width: 450px
+            top: 9%;
+            left: 48%;
+            width: 310px
         }
     }
 
@@ -3316,9 +3316,9 @@ font-weight: bold;
 
     @media (min-width:1200px) {
         .programm-item__image_1 {
-            top: -5%;
-            left: 17%;
-            width: 740px;
+            top: 12%;
+            left: 32%;
+            width: 560px;
             z-index: -1;
         }
     }
