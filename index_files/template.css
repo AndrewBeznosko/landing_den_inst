@@ -602,6 +602,7 @@ body .header .h-middle .hm-right {
 body .header .h-middle .hm-right img {
   position: relative;
   z-index: 2;
+  left: -95px;
 }
 
 body .header .h-middle .hm-right .description {
