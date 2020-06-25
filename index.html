@@ -40,7 +40,7 @@
                             var d = new Date();
                             var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
                                 "июля", "августа", "сентября", "октября", "ноября", "декабря");
-                            document.write(+d.getDate() + " " + month[d.getMonth()] +  " " + "13:00 или 19:00 по МСК");
+                            document.write(+d.getDate() + " " + month[d.getMonth()] + " " + "13:00 или 19:00 по МСК");
                         </script>
                     </p>
                     <p class="ht-2 big">
@@ -88,12 +88,14 @@
                     </div>
                     <div class="col-12 col-md-6 p-0 order-1 order-2">
                         <div class="hb-right">
-                            <div class="order d-block d-md-none">
-                                <a class="go-to-block" href="#" data-toggle="modal" data-target="#registration-2">Зарегистрироваться и получить книгу</a>
-                            </div>
-                            <p>Регистрируйтесь для участия<br class="d-sm-none"> онлайн-интенсиве в течении:</p>
-                            <div class="min-title">
-                                и получите книгу<br class="d-sm-none"> «7 продающих шаблонов для Instagram<br class="d-inline d-md-none"> которые работают»
+                            <div id="timer">
+                                <div class="order d-block d-md-none">
+                                    <a class="go-to-block" href="#" data-toggle="modal" data-target="#registration-2">Зарегистрироваться и получить книгу</a>
+                                </div>
+                                <p>Регистрируйтесь для участия<br class="d-sm-none"> онлайн-интенсиве в течении: <br><span class="seconds timer_seconds">1</span> секунд</p>
+                                <div class="min-title">
+                                    и получите книгу<br class="d-sm-none"> «7 продающих шаблонов для Instagram<br class="d-inline d-md-none"> которые работают»
+                                </div>
                             </div>
                             <div class="order d-none d-md-block">
                                 <a href="#" data-toggle="modal" data-target="#registration-2">Зарегистрироваться и получить книгу</a>
@@ -216,7 +218,7 @@
                                 <p class="sl-1">Реализуйте мечты с помощью мастер-класса, на котором вы узнаете:</p>
                                 <p class="big">как правильно выбрать стратегию работы онлайн</p>
                                 <p class="big">основные ложные убеждения о работе в интернете и не станете их повторять</p>
-                                <p class="big">какие 2 главные задачи должны  выполняться чтобы всё работало как часы</p>
+                                <p class="big">какие 2 главные задачи должны выполняться чтобы всё работало как часы</p>
                                 <p class="big">КАК ЗАПУСТИТЬ СВОЮ ВОРОНКУ, ЧТОБЫ ПОЛУЧАТЬ “ГОРЯЧИХ” КАНДИДАТОВ К СЕБЕ В БИЗНЕС И УВЕЛИЧИТЬ СВОЙ ЗАРАБОТОК В 3 РАЗА.</p>
                             </div>
                         </div>
@@ -241,7 +243,8 @@
                         <div class="title">
                             Забирайте готовую систему сетевого<br class="d-none d-xl-inline"> бизнеса через интернет.
                         </div>
-                        <p>Спикер Людмила Шашкова профессиональный маркетолог и таргетолог, автор курсов по рекламе<br class="d-none d-xl-inline"> и воронкам продаж. Она собрала свыше 3 млн подписчиков через рекламу и построила структуру<br class="d-none d-xl-inline"> в 22000 человек за полгода через интернет.</p>
+                        <p>Спикер Людмила Шашкова профессиональный маркетолог и таргетолог, автор курсов по рекламе<br class="d-none d-xl-inline"> и воронкам продаж. Она собрала свыше 3 млн подписчиков через рекламу и построила структуру<br
+                              class="d-none d-xl-inline"> в 22000 человек за полгода через интернет.</p>
                     </div>
                 </div>
             </div>
@@ -256,12 +259,14 @@
                     </div>
                     <div class="col-12 col-md-6 p-0 order-1 order-2">
                         <div class="hb-right">
-                            <div class="order d-block d-md-none">
-                                <a class="go-to-block" data-toggle="modal" data-target="#registration-2">Зарегистрироваться и получить книгу</a>
-                            </div>
-                            <p>Регистрируйтесь для участия<br class="d-sm-none"> в онлайн-интенсиве в течении:</p>
-                            <div class="min-title">
-                                и получите книгу<br class="d-sm-none"> «7 продающих шаблонов<br class="d-inline d-md-none"> для Instagram которые работают»
+                            <div id="timer2">
+                                <div class="order d-block d-md-none">
+                                    <a class="go-to-block" data-toggle="modal" data-target="#registration-2">Зарегистрироваться и получить книгу</a>
+                                </div>
+                                <p>Регистрируйтесь для участия<br class="d-sm-none"> в онлайн-интенсиве в течении:<br><span class="seconds timer_seconds">1</span> секунд</p>
+                                <div class="min-title">
+                                    и получите книгу<br class="d-sm-none"> «7 продающих шаблонов<br class="d-inline d-md-none"> для Instagram которые работают»
+                                </div>
                             </div>
                             <div class="order d-none d-md-block">
                                 <a href="https://ibc.eco/kak-soedinit-vysokiy-uroven-dokhoda-i-absolyutnuyu-svobodu#" data-toggle="modal" data-target="#registration-2">Зарегистрироваться и получить книгу</a>
@@ -368,7 +373,32 @@
     </div>
 
 
+    <script>
+        var seconds = 120;
+        setInterval(countdown, 1000);
 
+        function countdown() {
+            seconds--;
+            if (seconds < 1) {
+                $('#timer').hide();
+            } else {
+                $('#timer .seconds').html(seconds);
+            }
+        }
+    </script>
+    <script>
+		var seconds = 120;
+		setInterval(countdown, 1000);
+
+		function countdown() {
+			seconds--;
+			if (seconds < 1) {
+				$('#timer2').hide();
+			} else {
+				$('#timer2 .seconds').html(seconds);
+			}
+		}
+	</script>
     <script>
         // Loads the IFrame Player API code asynchronously.
         var tag = document.createElement('script');
@@ -409,7 +439,6 @@
                 $('.play-click').addClass('active');
             });
         }
-
     </script>
     <script type="text/javascript" src="./index_files/slick.min.js"></script>
     <script>
