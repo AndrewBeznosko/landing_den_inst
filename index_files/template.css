@@ -593,7 +593,8 @@ body .header .h-middle .min-title span {
 body .header .h-middle .title {
   font-size: 65px;
   line-height: 1.0;
-  
+  padding-bottom: 100px;
+  padding-top: 20px;
 }
 
 body .header .h-middle .hm-right {
@@ -707,7 +708,7 @@ body .header .h-bottom .hb-right {
 }
 
 body .header .h-bottom .hb-right .min-title {
-  margin: 10px 0 20px 0;
+  margin: 10px 0 20px 20px;
 }
 
 body .header .h-bottom .hb-right form input,
@@ -1980,7 +1981,7 @@ body.thanks .want .w-bottom .once {
     font-size: 37px;
     line-height: 1.1;
     max-width: 304px;
-    margin: 20px auto;
+    margin: 0px auto -50px;
   }
 
   body .header .h-middle .hm-right {
