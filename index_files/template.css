@@ -593,6 +593,7 @@ body .header .h-middle .min-title span {
 body .header .h-middle .title {
   font-size: 65px;
   line-height: 1.0;
+  
 }
 
 body .header .h-middle .hm-right {
@@ -602,7 +603,9 @@ body .header .h-middle .hm-right {
 body .header .h-middle .hm-right img {
   position: relative;
   z-index: 2;
-  left: -95px;
+  left: 110px;
+  width:450px;
+  top:50px;
 }
 
 body .header .h-middle .hm-right .description {
@@ -2381,7 +2384,7 @@ body.thanks .want .w-bottom .once {
 }
 
 .col-md-auto {
-  width: 300px;
+  width: 400px;
 }
 
 @media (max-width: 767.98px) {
