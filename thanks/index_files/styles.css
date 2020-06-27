@@ -358,6 +358,40 @@ template {
   font-display: swap;
   src: local("Futura PT"), local("Futura PT"), url("../fonts/FuturaPT-Bold.woff") format("woff");
 }
+@font-face {
+  font-family: 'Futura';
+  src: url('../../fonts/FuturaLightC-Italic.eot');
+  src: local('../../fonts/Futura Light Italic Cyrillic'), local('FuturaLightC-Italic'),
+    url('../../fonts/FuturaLightC-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FuturaLightC-Italic.woff') format('woff'),
+    url('../../fonts/FuturaLightC-Italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('../../fonts/FuturaDemiC.eot');
+  src: local('../../fonts/Futura Demi Cyrillic'), local('FuturaDemiC'),
+    url('../../fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FuturaDemiC.woff') format('woff'),
+    url('../../fonts/FuturaDemiC.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('../../fonts/FuturaMediumC.eot');
+  src: local('../../fonts/Futura Medium Cyrillic'), local('FuturaMediumC'),
+    url('../../fonts/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/FuturaMediumC.woff') format('woff'),
+    url('../../fonts/FuturaMediumC.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U0020-2122;
+}
 h1,
 h2,
 h3,
@@ -1582,6 +1616,89 @@ button {
   margin-right: 20px;
   flex-shrink: 0;
   transition: fill 0.4s ease;
+}
+body .footer {
+  padding: 45px 0 45px 0;
+}
+
+body .footer p {
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+body .footer p:not(:last-of-type) {
+  margin-right: 17px;
+}
+
+body .footer a {
+  color: #9f9f9f;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body .footer .mail a {
+  text-decoration: underline;
+}
+
+body .footer .mail a:hover {
+  text-decoration: none;
+}
+
+body .footer .social {
+  margin: 0 0 0 17px;
+}
+
+body .footer .social .soc a {
+  width: 35px;
+  height: 35px;
+  margin: 0 0 0 15px;
+  border: 1px solid #c3c3c3;
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c3c3c3;
+}
+
+body .footer .social .soc a:hover {
+  background: #c3c3c3;
+  color: #ffffff;
+}
+body .footer {
+  padding: 0 0 20px 0;
+  background-size: cover;
+  text-align: left;
+  font-family: 'Futura';
+  background-color: #F6F6F6;
+}
+
+body .footer .social {
+  margin: 10px 0 0 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+body .footer .social .soc a {
+  margin: 10px;
+}
+
+body .footer .f-block {
+  padding: 29px 15px 40px 15px;
+  margin: 0 0 55px 0;
+  margin: 0 0 20px 0;
+  background-size: cover;
+}
+
+body .footer .f-block p {
+  margin: auto;
+}
+
+body .footer .f-block .order a {
+  padding: 5px 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
