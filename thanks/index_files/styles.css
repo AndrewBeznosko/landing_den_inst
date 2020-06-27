@@ -414,6 +414,7 @@ a {
 
 p {
   margin: 0;
+  font-size: 2.4rem;
 }
 
 a {
@@ -1281,13 +1282,21 @@ button {
   display: flex;
   align-items: center;
   background-color: #25AE88;
-  width: fit-content;
+  width: max-content;
   margin: 0 auto 1em;
   text-align: center;
   border-radius: 5px;
   padding: 0.5em 1em;
   color: #fff;
   font-weight: 700;
+}
+@media (max-width: 767px){
+  .status__success{
+    width: auto;
+  }
+  .status__success p{
+    font-size: 18px;
+  }
 }
 .status__text {
   margin-bottom: 1em;
