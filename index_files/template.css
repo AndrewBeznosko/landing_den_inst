@@ -721,17 +721,6 @@ body .header .h-bottom .hb-right .order a {
   position: relative;
 }
 
-body .header .h-bottom .hb-right .order a:before {
-  position: absolute;
-  content: "";
-  left: -50px;
-  bottom: -100px;
-  width: 74px;
-  height: 20px;
-  background: url(../images/arrow.png) no-repeat center top;
-  display: none;
-}
-
 body .header .h-bottom .hb-right .for-social {
   padding: 20px 0 0 0;
 }
@@ -1978,10 +1967,10 @@ body.thanks .want .w-bottom .once {
   }
 
   body .header .h-middle .title {
-    font-size: 37px;
+    font-size: 25px;
     line-height: 1.1;
     max-width: 304px;
-    margin: 0px auto -50px;
+    margin: 0px auto -80px;
   }
 
   body .header .h-middle .hm-right {
@@ -2406,7 +2395,7 @@ body.thanks .want .w-bottom .once {
 }
 
 body .speakers {
-  padding: 170px 0 0 0;
+  padding: 60px 0 0 0;
   position: relative;
 }
 body .speakers .s-icons .si-left {
@@ -2518,7 +2507,7 @@ body .speakers .s-block .subs .min-title {
 
 @media (max-width: 767px) {
   body .speakers {
-    padding: 80px 0 0 0;
+    padding: 55px 0 0 0;
   }
   body .speakers .s-icon {
     right: -20px;
@@ -2568,4 +2557,30 @@ body .speakers .s-block .subs .min-title {
   body .speakers .s-block .subs .min-title {
     padding: 0;
   }
+}
+.btn-animate {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
+  transition: 0.25s;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.btn-animate::before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 140%;
+  top: -70%;
+  left: -70%;
+  opacity: 0.4;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+  transform: rotate(-30deg);
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: 0.25s cubic-bezier(0, 0.3, 1, 0.7);
 }
