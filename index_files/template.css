@@ -309,6 +309,11 @@ body form .order button {
   padding: 5px 15px;
   margin-bottom: 30px;
 }
+body form .order p{
+  font-weight: 300;
+  text-align: justify;
+  font-size: 14px;
+}
 
 body .page-404 {
   min-height: 100vh;
