@@ -170,7 +170,7 @@ body p.big {
 }
 
 body .title {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 45px;
   font-weight: 600;
 }
@@ -307,6 +307,7 @@ body form select {
 body form .order button {
   width: 100%;
   padding: 5px 15px;
+  margin-bottom: 30px;
 }
 
 body .page-404 {
@@ -1897,8 +1898,8 @@ body.thanks .want .w-bottom .once {
 
 @media (max-width: 767px) {
   body .title {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 22px;
+    line-height: 30px;
   }
 
   body .min-title {
