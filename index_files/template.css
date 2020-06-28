@@ -170,8 +170,8 @@ body p.big {
 }
 
 body .title {
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 30px;
+  line-height: 45px;
   font-weight: 600;
 }
 
@@ -2566,6 +2566,7 @@ body .speakers .s-block .subs .min-title {
   animation-name: example1;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  -webkit-appearance: none;
 }
 
 .btn-animate::before {
@@ -2583,4 +2584,40 @@ body .speakers .s-block .subs .min-title {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   transition: 0.25s cubic-bezier(0, 0.3, 1, 0.7);
+}
+@keyframes example {
+  0% {
+    top: -70%;
+    left: -70%;
+  }
+  60% {
+    top: -70%;
+    left: -70%;
+  }
+  80% {
+    top: 70%;
+    left: 30%;
+  }
+  100% {
+    top: -70%;
+    left: -70%;
+  }
+}
+@keyframes example1 {
+  0% {
+    transform: rotateX(0deg);
+    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
+  }
+  60% {
+    transform: rotateX(0deg);
+    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
+  }
+  80% {
+    transform: rotateX(-30deg);
+    box-shadow: 3px 15px 13px -5px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    transform: rotateX(0deg);
+    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
+  }
 }
