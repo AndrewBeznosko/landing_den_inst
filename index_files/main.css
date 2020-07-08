@@ -211,7 +211,7 @@ h1, h2, p {
 
 @media only screen and (max-width: 550px) {
   .supercup .supercup__head .supercup__logo .title {
-    font-size: 41px;
+    font-size: 30px;
   }
 }
 
