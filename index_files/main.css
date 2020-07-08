@@ -204,6 +204,7 @@ p {
   .supercup .supercup__head .supercup__logo .logo {
     margin-right: 0;
     width: 100px;
+    padding-bottom: 20px;
   }
 }
 
@@ -422,7 +423,7 @@ p {
   max-width: 540px;
   min-height: 561px;
   background-color: #0061b0;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 .lity-container .participate-popup .liga-form {
@@ -451,7 +452,6 @@ p {
   width: 100%;
   height: 77px;
   border: none;
-  background-color: #f7ef79;
   font-size: 20px;
   font-weight: 500;
   font-family: "Gilroy", Arial, sans-serif;
@@ -459,7 +459,7 @@ p {
 }
 
 .lity-container .participate-popup form input:not([type="checkbox"])::placeholder {
-  color: #816000;
+
 }
 
 .lity-container .participate-popup form button[type="submit"] {
