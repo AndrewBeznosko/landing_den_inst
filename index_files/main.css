@@ -284,6 +284,16 @@ p {
   height: 460px;
   font-size: 0;
   border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.supercup .supercap__main .supercup__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 1430px) {
@@ -319,7 +329,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 584px;
+  max-width: 650px;
   width: 100%;
   background-color: #0061b0;
   border-radius: 15px;
@@ -329,6 +339,11 @@ p {
   .supercup .supercap__main .supercap__register {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+  }
+
+  .supercup .supercap__main .supercup__video {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; 
   }
 }
 
