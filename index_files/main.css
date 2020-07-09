@@ -325,6 +325,13 @@ p {
   border-radius: 15px;
 }
 
+@media (min-width: 767px) {
+  .supercup .supercap__main .supercap__register {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
 @media only screen and (max-width: 1430px) {
   .supercup .supercap__main .supercap__register {
     min-height: 471px;
@@ -459,11 +466,10 @@ p {
   font-weight: 500;
   font-family: "Gilroy", Arial, sans-serif;
   color: #000000;
+  border-radius: 4px;
 }
 
-.lity-container .participate-popup form input:not([type="checkbox"])::placeholder {
-
-}
+.lity-container .participate-popup form input:not([type="checkbox"])::placeholder {}
 
 .lity-container .participate-popup form button[type="submit"] {
   margin-top: 2px;
@@ -497,103 +503,204 @@ p {
 .lity-container .participate-popup #land-form .field-customers-agree .checkbox label {
   color: #816000;
 }
+
 .btn-animate::before {
-    content: '';
-    display: block;
-    position: absolute;
-    height: 100%;
-    width: 140%;
-    top: -70%;
-    left: -70%;
-    opacity: 0.4;
-    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
-    transform: rotate(-30deg);
-    animation-name: example;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    transition: 0.25s cubic-bezier(0, 0.3, 1, 0.7);
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 140%;
+  top: -70%;
+  left: -70%;
+  opacity: 0.4;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+  transform: rotate(-30deg);
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: 0.25s cubic-bezier(0, 0.3, 1, 0.7);
 }
+
 .btn-animate {
-    position: relative;
-    overflow: hidden;
-    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
-    transition: 0.25s;
-    animation-name: example1;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
+  transition: 0.25s;
+  animation-name: example1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  border-radius: 4px;
 }
+
 @keyframes example {
   0% {
     top: -70%;
     left: -70%;
   }
+
   60% {
     top: -70%;
     left: -70%;
   }
+
   80% {
     top: 70%;
     left: 30%;
   }
+
   100% {
     top: -70%;
     left: -70%;
   }
 }
+
 @keyframes example1 {
   0% {
     transform: rotateX(0deg);
     box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
   }
+
   60% {
     transform: rotateX(0deg);
     box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
   }
+
   80% {
     transform: rotateX(-30deg);
     box-shadow: 3px 15px 13px -5px rgba(0, 0, 0, 0.2);
   }
+
   100% {
     transform: rotateX(0deg);
     box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
   }
 }
+
 body .footer p {
-    white-space: normal;
+  white-space: normal;
 }
+
 body .footer .fl-left {
-    text-align: right;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 100%;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100%;
 }
+
 body .footer .fl-right {
-    width:100%;
+  width: 100%;
 }
+
 body .footer .fl-right p {
-    margin-bottom:10px;
+  margin-bottom: 10px;
 }
+
 body .footer .fl-right a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
 body .footer .soc {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-@media  screen and (max-width: 500px) {
-    h1 {
-        font-size: 50px
-    }
-    body .footer p{
-        margin-right: 0;
-    }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 50px
+  }
+
+  body .footer p {
+    margin-right: 0;
+  }
 }
-@media  screen and (min-width: 900px){
-    body .footer p:not(:last-of-type) {
-        margin-right: 17px;
-    }
-    .item.two {
-        transform: scale(1.1);
-    }
+
+@media screen and (min-width: 900px) {
+  body .footer p:not(:last-of-type) {
+    margin-right: 17px;
+  }
+
+  .item.two {
+    transform: scale(1.1);
+  }
+}
+
+/* footer */
+
+body .footer {
+  padding: 50px 0 31px 0;
+  background-color: #f5f5f5;
+}
+
+body .footer p {
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+body .footer p:not(:last-of-type) {
+  margin-right: 17px;
+}
+
+body .footer a {
+  color: #9f9f9f;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body .footer .mail a {
+  text-decoration: underline;
+}
+
+body .footer .mail a:hover {
+  text-decoration: none;
+}
+
+body .footer .social {
+  margin: 0 0 0 17px;
+}
+
+body .footer .social .soc a {
+  width: 35px;
+  height: 35px;
+  margin: 0 0 0 15px;
+  border: 1px solid #c3c3c3;
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c3c3c3;
+}
+
+body .footer .social .soc a:hover {
+  background: #c3c3c3;
+  color: #ffffff;
+}
+
+body .footer a {
+  color: #a3a3a3 !important;
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .rights {
+    margin-bottom: 15px;
+  }
+
+  body .footer .social {
+    margin: 0 0 0 17px;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px 0 0;
+  }
+
+  body .footer .soc {
+    margin-top: 15px;
+  }
 }
