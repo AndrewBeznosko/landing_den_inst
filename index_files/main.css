@@ -137,6 +137,7 @@ p {
   min-height: 1076px;
   background: url("./bg.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .supercup .section-wrap {

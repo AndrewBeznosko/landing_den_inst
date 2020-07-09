@@ -1182,6 +1182,14 @@ button {
   .status__ask {
     margin-bottom: 1em;
   }
+
+  .status {
+    padding: 1em 0 0;
+  }
+
+  body .footer {
+    margin-top: -10px;
+}
 }
 @media (min-width: 768px) {
   .status__content {
