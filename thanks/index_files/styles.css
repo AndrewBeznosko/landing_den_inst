@@ -1273,7 +1273,7 @@ button {
     background: url("./arrow.svg") center no-repeat;
     background-size: cover;
     position: absolute;
-    top: 89%;
+    top: 55%;
     right: 3em;
     transform: rotate(-60deg);
   }
@@ -1574,6 +1574,7 @@ body .footer .mail a:hover {
 
 body .footer .social {
   margin: 0 0 0 17px;
+  margin-top: 1rem;
 }
 
 body .footer .social .soc a {
