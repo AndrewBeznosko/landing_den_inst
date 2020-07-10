@@ -238,6 +238,12 @@ p {
   max-width: 460px;
   width: 100%;
 }
+@media only screen and (max-width: 550px) {
+  .supercup .supercup__head .supercup__description {
+    display: flex;
+    align-items: center;
+  }
+}
 
 .supercup .supercup__head .supercup__description .subtitle {
   max-width: 405px;
