@@ -206,6 +206,17 @@ p {
     margin-right: 0;
     width: 100px;
     padding-bottom: 20px;
+    display: none;
+  }
+}
+.supercup .supercup__head .supercup__description .logo-mobile {
+  margin-right: -10px;
+  width: 500px;
+}
+
+@media only screen and (min-width: 550px) {
+  .supercup .supercup__head .supercup__description .logo-mobile {
+    display: none;
   }
 }
 
@@ -262,7 +273,20 @@ p {
 
 @media only screen and (max-width: 550px) {
   .supercup .supercup__head .supercup__description .date {
-    font-size: 16px;
+    display: none;
+  }
+}
+
+.supercup .supercup__head .supercup__logo .date-mobile {
+  font-size: 16px;
+  text-align: left;
+  padding: 15px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 550px) {
+  .supercup .supercup__head .supercup__logo .date-mobile {
+    display: none;
   }
 }
 
@@ -344,7 +368,7 @@ p {
 
   .supercup .supercap__main .supercup__video {
     border-top-right-radius: 0;
-    border-bottom-right-radius: 0; 
+    border-bottom-right-radius: 0;
   }
 }
 
