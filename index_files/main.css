@@ -208,10 +208,11 @@ p {
     padding-bottom: 20px;
     display: none;
   }
-}
-.supercup .supercup__head .supercup__description .logo-mobile {
-  margin-right: -10px;
-  width: 500px;
+
+  .supercup .supercup__head .supercup__description .logo-mobile {
+    margin-right: -5px;
+    max-width: 145px;
+  }
 }
 
 @media only screen and (min-width: 550px) {
@@ -230,6 +231,7 @@ p {
 @media only screen and (max-width: 550px) {
   .supercup .supercup__head .supercup__logo .title {
     font-size: 30px;
+    text-align: center;
   }
 }
 
@@ -256,7 +258,7 @@ p {
 @media only screen and (max-width: 550px) {
   .supercup .supercup__head .supercup__description .subtitle {
     letter-spacing: normal;
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 
@@ -460,6 +462,7 @@ p {
 .lity-container {
   width: 100%;
   max-width: 540px !important;
+  z-index: 999999999 !important;
 }
 
 @media only screen and (max-width: 550px) {
@@ -513,6 +516,13 @@ p {
   font-family: "Gilroy", Arial, sans-serif;
   color: #000000;
   border-radius: 4px;
+}
+
+@media (max-width: 767.98px) {
+  #land-form #customers-phone,
+  .lity-container .participate-popup form input:not([type="checkbox"]) {
+    height: 60px;
+  }
 }
 
 .lity-container .participate-popup form input:not([type="checkbox"])::placeholder {}
