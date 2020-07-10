@@ -210,8 +210,7 @@ p {
   }
 
   .supercup .supercup__head .supercup__description .logo-mobile {
-    margin-right: -5px;
-    max-width: 145px;
+    max-width: 125px;
   }
 }
 
@@ -465,12 +464,6 @@ p {
   z-index: 999999999 !important;
 }
 
-@media only screen and (max-width: 550px) {
-  .lity-container {
-    padding: 0 10px;
-  }
-}
-
 .lity-container .participate-popup {
   padding: 50px 20px;
   margin: 0 auto;
@@ -516,12 +509,17 @@ p {
   font-family: "Gilroy", Arial, sans-serif;
   color: #000000;
   border-radius: 4px;
+  background-color: #fff;
 }
 
 @media (max-width: 767.98px) {
   #land-form #customers-phone,
   .lity-container .participate-popup form input:not([type="checkbox"]) {
     height: 60px;
+  }
+
+  .lity-container .participate-popup {
+    max-height: 5000px !important;
   }
 }
 
@@ -759,5 +757,22 @@ body .footer a {
 
   body .footer .soc {
     margin-top: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  .lity-container {
+    padding: 0 10px;
+    overflow: auto;
+  }
+
+  .lity-container .participate-popup {
+    padding-top: 20px;
+  }
+
+  .lity {
+    z-index: 99999999999999999 !important;
+    background-color: #0b0b0b !important;
   }
 }
