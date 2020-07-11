@@ -239,6 +239,7 @@ p {
   max-width: 460px;
   width: 100%;
 }
+
 @media only screen and (max-width: 550px) {
   .supercup .supercup__head .supercup__description {
     display: flex;
@@ -413,6 +414,7 @@ p {
 
 .supercup .supercap__main .supercap__register .participate-btn {
   margin-top: 50px;
+  z-index: 0;
 }
 
 .main-footer {
@@ -513,6 +515,7 @@ p {
 }
 
 @media (max-width: 767.98px) {
+
   #land-form #customers-phone,
   .lity-container .participate-popup form input:not([type="checkbox"]) {
     height: 60px;
@@ -774,5 +777,11 @@ body .footer a {
   .lity {
     z-index: 99999999999999999 !important;
     background-color: #0b0b0b !important;
+  }
+
+  .lity-wrap {
+    z-index: 9990 !important;
+    position: relative !important;
+    top: 10px !important;
   }
 }
