@@ -111,6 +111,7 @@ body .footer a {
 
 .service-title {
   font-size: 23px;
+  font-weight: bold;
 }
 
 @media (max-width: 767.98px) {
