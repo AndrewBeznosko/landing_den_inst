@@ -5885,12 +5885,16 @@ p,
   }
 }
 
+.how {
+  padding-top: 60px;
+}
+
 .how .h-left .pic {
   margin: 0 0 -130px -560px;
 }
 
 .how .h-right {
-  padding: 265px 0 0 0;
+  padding: 0;
 }
 
 .how .h-right .text {
@@ -6081,8 +6085,8 @@ p,
   font-style: italic;
 }
 
-.cost .c-row .cb-3 .prices .min-title span{
-  text-decoration:line-through;
+.cost .c-row .cb-3 .prices .min-title span {
+  text-decoration: line-through;
   color: grey;
 }
 
@@ -6475,26 +6479,32 @@ p,
     display: none;
   }
 }
+
 body .speakers {
   padding: 60px 0 0 0;
   position: relative;
 }
+
 body .speakers .s-icons .si-left {
   position: absolute;
   left: -115px;
   top: 150px;
 }
+
 body .speakers .s-icon {
   position: absolute;
   right: -80px;
   top: -130px;
 }
+
 body .speakers .for-title {
   text-align: center;
 }
+
 body .speakers .for-title p {
   margin: 23px 0 31px 0;
 }
+
 body .speakers .s-block {
   margin: 0 0 45px 0;
   max-width: 340px;
@@ -6502,10 +6512,12 @@ body .speakers .s-block {
   border-radius: 12px;
   border: 1px solid #d0d0d0;
 }
+
 body .speakers .s-block .s-img img {
   margin: 2px;
   max-width: 99%;
 }
+
 body .speakers .s-block .icons {
   display: -webkit-flex;
   display: -moz-flex;
@@ -6517,27 +6529,34 @@ body .speakers .s-block .icons {
   margin: 23px 0 29px 0;
   padding: 0 10px;
 }
+
 body .speakers .s-block .name {
   padding: 0 30px;
 }
+
 body .speakers .s-block .name .title {
   font-size: 30px;
   line-height: 33px;
 }
+
 body .speakers .s-block .name .insta a {
   color: #656565;
   text-decoration: none;
   pointer-events: none;
 }
+
 body .speakers .s-block .list {
   padding: 0 10px;
 }
+
 body .speakers .s-block .list p {
   padding: 0 0 0 20px;
 }
+
 body .speakers .s-block .list p:not(:last-of-type) {
   margin-bottom: 18px;
 }
+
 body .speakers .s-block .list p:before {
   position: absolute;
   content: "";
@@ -6548,6 +6567,7 @@ body .speakers .s-block .list p:before {
   background-color: #7052ba;
   border-radius: 50%;
 }
+
 body .speakers .s-block .subs {
   padding: 0 10px;
   margin: 14px 0 19px 0;
@@ -6560,6 +6580,7 @@ body .speakers .s-block .subs {
   align-items: center;
   justify-content: space-between;
 }
+
 body .speakers .s-block .subs .min-title {
   font-size: 24px;
   padding: 0 0 0 20px;
@@ -6569,13 +6590,16 @@ body .speakers .s-block .subs .min-title {
   body .speakers {
     padding: 50px 0 0;
   }
+
   body .speakers .s-block .s-img img {
     max-width: 100%;
     margin: 0;
   }
+
   body .speakers .s-block .subs .min-title {
     padding: 0;
   }
+
   body .packets {
     padding: 50px 0;
   }
@@ -6591,52 +6615,137 @@ body .speakers .s-block .subs .min-title {
   body .speakers {
     padding: 55px 0 0 0;
   }
+
   body .speakers .s-icon {
     right: -20px;
     top: -20px;
   }
+
   body .speakers .for-title {
     text-align: left;
   }
+
   body .speakers .for-title p {
     margin: 23px 0 43px 0;
   }
+
   body .speakers .for-title .title {
     text-align: left;
   }
+
   body .speakers .s-block {
     margin: 0 0 45px 0;
     border: none;
     border-radius: 0;
     padding: 0;
   }
+
   body .speakers .s-block .icons {
     margin: 23px 0 29px 0;
   }
+
   body .speakers .s-block .name {
     padding: 0;
   }
+
   body .speakers .s-block .name .title {
     font-size: 30px;
     line-height: 33px;
   }
+
   body .speakers .s-block .list p {
     padding: 0 0 0 20px;
   }
+
   body .speakers .s-block .list p:not(:last-of-type) {
     margin-bottom: 18px;
   }
+
   body .speakers .s-block .list p:before {
     left: 0;
     top: 5px;
     width: 8px;
     height: 8px;
   }
+
   body .speakers .s-block .subs {
     margin: 14px 0 19px 0;
     padding: 15px 15px;
   }
+
   body .speakers .s-block .subs .min-title {
     padding: 0;
   }
+}
+
+
+.carusel-notebook-wrapper {
+  margin-top: 50px;
+  margin-left: -100px;
+  margin-right: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.carusel-notebook-wrapper .notebook-img {
+  z-index: -1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -33px;
+  width: 132%;
+}
+
+.carusel-notebook-wrapper .carousel {
+  z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+  .carusel-notebook-wrapper {
+    margin: 0;
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .carusel-notebook-wrapper .notebook-img {
+    display: none;
+  }
+
+  .how {
+    padding-top: 0;
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-control-next-icon::before,
+.carousel-control-prev-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #201f26;
+}
+
+.carousel-control-prev-icon::before {
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
+}
+
+.carousel-control-next-icon::before {
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px 20px;
 }
