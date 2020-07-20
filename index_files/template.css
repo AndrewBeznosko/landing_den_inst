@@ -5853,6 +5853,10 @@ p,
   margin: 55px 0 0 0;
 }
 
+.programm .p-block ol {
+  margin-bottom: 20px;
+}
+
 .programm .p-block p:not(:last-of-type) {
   margin-bottom: 25px;
 }
