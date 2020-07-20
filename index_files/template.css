@@ -4759,6 +4759,7 @@ p,
   font-family: "Proxima Nova Ex Cn";
   max-width: 400px;
   width: 100%;
+  margin-top: 10px;
 }
 
 .order a:hover,
@@ -6117,6 +6118,11 @@ p,
   font-family: "Proxima Nova Ex Cn";
   font-weight: 800;
   font-style: italic;
+}
+
+.cost .c-row .cb-3 .prices .min-title span{
+  text-decoration:line-through;
+  color: grey;
 }
 
 .cost .c-row .cb-3 .prices .order {
