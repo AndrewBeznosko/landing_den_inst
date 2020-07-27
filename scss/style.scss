@@ -1008,6 +1008,12 @@ header {
         font-weight: 600;
         margin: 5px 0 25px;
     }
+    .book-cover {
+      display: flex;
+    }
+    .min-title {
+      margin: 10px 0 20px 20px;
+    }
 
     .g_button {
         margin-left: 0;

@@ -48,20 +48,23 @@
 		<div class="container container_header">
 			<div class="header_text">
 				<h1>Как создать генератор партнёров из интернета*</h1>
-				<div class="block-book">
-					<span>Регистрируйтесь для участия в мастер-классе прямо сейчас</span>
-					<p>и получите книгу “Как за 30 дней сделать прорыв в Топ-Лидеры”</p>
-					<a href="#" data-reveal-id="zakaz" class="g_button head_btn btn-animate">Зарегистрироваться и получить книгу</a>
+				<div class="block-book" id="timer">
+					<span>Регистрируйтесь для участия в мастер-классе в течении:<span class="seconds timer_seconds">1</span> секунд</span>
+					<div class="book-cover">
+						<img src="img/book.png" height="100">
+						<p class="min-title">и получите книгу «7 продающих шаблонов для Instagram которые работают»</p>
+					</div>
 				</div>
+				<a href="#" data-reveal-id="zakaz" class="g_button head_btn btn-animate">Зарегистрироваться и получить книгу</a>
 			</div>
 			<div class="video-row">
 				<div class="header_text second">
-					<p>Бесплатный онлайн мастер-класс <br> <span> <span class="js-nextDate">9 июня в 18:00 МСК</span></span>
+					<p>Бесплатный онлайн мастер-класс <br> <span> <span class="js-nextDate">15 августа в 18:00 МСК</span></span>
 
 					</p>
 				</div>
 				<div class="videoWrapper">
-					<iframe src="https://www.youtube.com/embed/dTahi-2Il6s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe src="https://player.vimeo.com/video/442025918?title=0&byline=0&portrait=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 			<!-- <div class="header_form">
@@ -103,11 +106,10 @@
 						<div class="programm-item__inner">
 							<div class="programm-item__info">
 								<div class="programm-item__info-cube">
-									<p class="programm-item__info-date programm-item__info-date_2"><span>9 июня</span></p>
+									<p class="programm-item__info-date programm-item__info-date_2"><span>15 АВГУСТА</span></p>
 									<p class="programm-item__info-title">Как создать генератор партнёров из интернета</p>
-									<p class="programm-item__info-subtitle programm-item__info-subtitle_2">Спикеры:</p>
-									<p class="programm-item__info-name">ЛЮДМИЛА ШАШКОВА,</p>
-									<p class="programm-item__info-name">АНАСТАСИЯ ГОВОРКОВА</p>
+									<p class="programm-item__info-subtitle programm-item__info-subtitle_2">Спикер:</p>
+									<p class="programm-item__info-name">ЛЮДМИЛА ШАШКОВА</p>
 								</div>
 							</div>
 							<div class="programm-item__content">
@@ -116,14 +118,9 @@
 									<li>Как создать систему вовлечения партнеров в свой бизнес</li>
 									<li>Как получать заинтересованных кандидатов и не тратить время на “зевак” в интернете</li>
 									<li>Как познакомить кандидата со своим бизнесом, чтобы к вам на консультацию приходили уже заинтересованные люди</li>
-									<li>Что такое Бизнес “налегке,” когда у тебя больше нет проблем с тем, где брать людей в бизнес</li>
+									<li>Что такое бизнес “налегке,” когда у тебя больше нет проблем с тем, где брать людей в бизнес</li>
 								</ul>
 							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-4 programm-item programm-item_1">
-						<div class="programm-item__inner">
-							<img src="img/speaker-polishuk.png" alt="Как создать системную онлайн-школу на своих или чужих знаниях" class="programm-item__image programm-item__image_1">
 						</div>
 					</div>
 				</div>
@@ -386,7 +383,7 @@
 			<div class="row align-items-center">
 				<div class="left-side-footer col-xs-12 col-sm-6 col-lg-auto">
 					<p class="rights">
-						© 2020 Анастасия Говоркова — Все права защищены.
+						© 2020 Людмила Шашкова — Все права защищены.
 					</p>
 					<p>
 						<a href="/docs/public_offer_new.PDF">
@@ -735,6 +732,19 @@
 		});
 	</script>
 	<script src="./js/scripts.min.js"></script>
+	<script>
+		var seconds = 120;
+		setInterval(countdown, 1000);
+
+		function countdown() {
+			seconds--;
+			if (seconds < 1) {
+				$('#timer').hide();
+			} else {
+				$('#timer .seconds').html(seconds);
+			}
+		}
+	</script>
 
 </body>
 
