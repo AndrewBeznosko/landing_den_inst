@@ -1475,7 +1475,6 @@ font-weight: 900;;
     @media (min-width:1200px) {
         .section__title {
             font-size: 60px;
-            text-align: center;
         }
     }
 
@@ -1925,6 +1924,12 @@ font-weight: bold;
     @media (max-width:767px) {
         .end__header-title {
             max-width: 250px
+        }
+    }
+
+    @media (min-width:767px) {
+        .end__header-title {
+            text-align:center;
         }
     }
 
