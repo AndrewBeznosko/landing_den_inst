@@ -1281,7 +1281,7 @@ button {
     background: url("./arrow.svg") center no-repeat;
     background-size: cover;
     position: absolute;
-    top: 80%;
+    top: 100%;
     right: 3em;
     transform: rotate(-60deg);
   }

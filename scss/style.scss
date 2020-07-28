@@ -172,7 +172,14 @@ header .container {
 }
 .header_text {
     color: #fff;
-padding-top: 30px;
+    padding-top: 30px;
+    .video-mobile{
+      display: none;
+      @media (max-width:767px){
+        display: block;
+        margin-bottom: 15px;
+      }
+    }
 }
 .header_text h1 {
   font-size: 60px;
@@ -943,6 +950,9 @@ header {
         max-width: 500px;
         min-width: 500px;
         margin: 0 auto;
+        @media (max-width:767px){
+          display: none;
+        }
     }
 
     .videoWrapper {
@@ -1010,6 +1020,9 @@ header {
         font-size: 24px;
         font-weight: 600;
         margin: 5px 0 25px;
+        @media (max-width:767px){
+          font-size: 18px;
+        }
     }
     .book-cover {
       display: flex;
