@@ -1,364 +1,235 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>онлайн-марафон “Эффективность на максимум”</title>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta property="og:title" content='онлайн-марафон “Эффективность на максимум”' />
-    <meta property="og:site_name" content='онлайн-марафон “Эффективность на максимум”' />
-    <meta itemprop="name" content='онлайн-марафон “Эффективность на максимум”'>
+	<title>онлайн-марафон “Эффективность на максимум”</title>
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta property="og:title" content='онлайн-марафон “Эффективность на максимум”' />
+	<meta property="og:site_name" content='онлайн-марафон “Эффективность на максимум”' />
+	<meta itemprop="name" content='онлайн-марафон “Эффективность на максимум”'>
 
-    <!-- Icons -->
-     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<!-- Icons -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#000">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#000">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    <link href="./css/magnific-popup.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/aa2f530254.js" crossorigin="anonymous"></script>
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<link href="./css/magnific-popup.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/aa2f530254.js" crossorigin="anonymous"></script>
 
-    <link href="./css/style.css?v=2" rel="stylesheet">
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P7SBNRZ');</script>
-    <!-- End Google Tag Manager -->
-    <!-- Hotjar Tracking Code for platform.ibc.eco -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1279585,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
-    <style type="text/css">
-        body {
-            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-        }
-        body .footer {
-    padding: 45px 0;
-}
-body.thanks .thanks-header .container {
-    padding-top: 5px!important;
-}
-body .footer .container {
-    display: flex;
-}
-body .footer p {
-    font-size: 16px;
-    color: #9f9f9f;
-}
-body .footer a {
-    color: #9f9f9f;
-    font-size: 16px;
-    text-decoration: none;
-}
-body .footer .mail a {
-    text-decoration: underline;
-}
-body .footer .phone a {
-    white-space: nowrap;
-}
-body .footer .mail a:hover {
-    text-decoration: none;
-}
-body .footer .social {
-    margin: 10px 0 0 17px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-body .footer .social .soc a {
-    width: 35px;
-    height: 35px;
-    margin: 0 0 0 15px;
-    border: 1px solid #c3c3c3;
-    border-radius: 50%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #c3c3c3;
-}
-body .footer .social .soc a:hover {
-    background: #c3c3c3;
-    color: #ffffff;
-}
-body .footer p {
-    white-space: normal;
-}
-body .footer .fl-left {
-    text-align: right;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    width: 100%;
-}
-body .footer .fl-right {
-    width:100%;
-}
-body .footer .fl-right p {
-    margin-bottom:10px;
-}
-body .footer .fl-right a {
-    text-decoration: underline;
-}
-body .footer .soc {
-    display: flex;
-    flex-wrap: wrap;
-}
-@media  screen and (max-width: 500px) {
-    h1 {
-        font-size: 50px
-    }
-    body .footer p{
-        margin-right: 0;
-    }
-    .g-btn_lr {
-        font-size: 13px
-    }
-}
-@media  screen and (min-width: 900px){
-    body .footer p:not(:last-of-type) {
-        margin-right: 17px;
-    }
-    .item.two {
-        transform: scale(1.1);
-    }
-}
-    </style>
+	<link href="./css/style.css?v=2" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7SBNRZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <div class="row">
-      <div class="pro-container col">
-        <h2>МАРАФОН ЭФФЕКТИВНОСТЬ НА МАКСИМУМ ДЛЯ ТЕХ, КТО ХОЧЕТ ДЕЛАТЬ РЕЗУЛЬТАТ В ОНЛАЙН БИЗНЕСЕ</h2>
-        <h1><span>PRO</span>эффективность и упаковку</h1>
-        <p>СТАРТ <span class="date">8</span>      СЕНТЯБРЯ</p>
-        <p><span>КАК ЗА 30 ДНЕЙ</span><br> ЗАПУСТИТЬ ГОТОВУЮ СИСТЕМУ<br> ОНЛАЙН БИЗНЕСА И НАЧАТЬ<br> ЗАРАБАТЫВАТЬ В ИНТЕРНЕТЕ</p>
-      </div>
+	<div class="overflow-hidden">
+		<div class="container">
+			<div class="row">
+				<div class="pro-container col-md-6 z1 position-relative py-5">
+					<div class="z2 my-4">
+						<h2>МАРАФОН ЭФФЕКТИВНОСТЬ НА МАКСИМУМ ДЛЯ ТЕХ, КТО ХОЧЕТ ДЕЛАТЬ РЕЗУЛЬТАТ В ОНЛАЙН БИЗНЕСЕ</h2>
+						<h1><span>PRO</span>эффективность и упаковку</h1>
+						<p>СТАРТ <span class="date">8</span> СЕНТЯБРЯ</p>
+						<p><span>КАК ЗА 30 ДНЕЙ</span><br> ЗАПУСТИТЬ ГОТОВУЮ СИСТЕМУ<br> ОНЛАЙН БИЗНЕСА И НАЧАТЬ<br>
+							ЗАРАБАТЫВАТЬ В
+							ИНТЕРНЕТЕ</p>
+					</div>
+				</div>
 
 
-      <div class="g-container col">
-         <div id="form1" class="popup_mfp" style="min-height: 490px;">
+				<div class="g-container col-md-6 z1 position-relative py-5">
+					<div id="form1" class="popup_mfp z2" style="min-height: 490px;">
 
-              <form action="" method="post">
-                  <div>
-                      <input type="text" class="input" placeholder="Введите Ваше Имя" name="name" required="">
-                      <input type="email" class="input" placeholder="Введите Ваш E-mail" name="email" required="">
-                      <input type="tel" class="input" placeholder="Введите Ваш телефон" name="phone" required="">
-                      <input type="hidden" name="sum" value="100">
-                      <input type="hidden" name="landing" value="predoplata-effektivnost-na-maksimum">
-                      <input type="hidden" name="ref" value="">
-                      <input type="hidden" name="utm_campaign" value="">
-                      <input type="hidden" name="utm_source" value="">
-                      <input type="hidden" name="utm_medium" value="">
-                      <input type="hidden" name="utm_content" value="">
-                      <input type="hidden" name="utm_term" value="">
-                      <input type="hidden" name="_token" value="pCkVPIe99SR6446ar1K7ZI9tb0AsORkwJs4RxQKD">                    <div style="font-size: 14px; display: inline-block;">Выберите валюту оплаты:</div>
-                      <div class="currencyBlock" style="display: inline-block;">
-                          <label style="margin-right: 10px"><input type="radio" name="currency" value="RUB" checked> RUB</label>
-                          <label style="margin-right: 10px"><input type="radio" name="currency" value="USD"> USD</label>
-                          <label style="margin-right: 10px"><input type="radio" name="currency" value="EUR"> EUR</label>
-                          <label><input type="radio" name="currency" value="UAH"> UAH</label>
-                      </div>
-                      <input class="submit g-btn_lr" type="submit" value="ВНЕСТИ ПРЕДОПЛАТУ">
-                      <div style="text-align: left; font-size: 12px; margin-top: 10px">
-                          Нажимая на кнопку "ВНЕСТИ ПРЕДОПЛАТУ", я даю свое согласие на обработку моих персональных данных, а также соглашаюсь с публичной офертой и политикой конфиденциальности</a>
-                          </div>
-                  </div>
-              </form>
-          </div>
-      </div>
+						<form action="" method="post">
+							<div>
+								<input type="text" class="input" placeholder="Введите Ваше Имя" name="name" required="">
+								<input type="email" class="input" placeholder="Введите Ваш E-mail" name="email"
+									required="">
+								<input type="tel" class="input" placeholder="Введите Ваш телефон" name="phone"
+									required="">
+								<input type="hidden" name="sum" value="100">
+								<input type="hidden" name="landing" value="predoplata-effektivnost-na-maksimum">
+								<input type="hidden" name="ref" value="">
+								<input type="hidden" name="utm_campaign" value="">
+								<input type="hidden" name="utm_source" value="">
+								<input type="hidden" name="utm_medium" value="">
+								<input type="hidden" name="utm_content" value="">
+								<input type="hidden" name="utm_term" value="">
+								<input type="hidden" name="_token" value="pCkVPIe99SR6446ar1K7ZI9tb0AsORkwJs4RxQKD">
+								<div style="font-size: 14px; display: inline-block;">Выберите валюту оплаты:</div>
+								<div class="currencyBlock" style="display: inline-block;">
+									<label style="margin-right: 10px"><input type="radio" name="currency" value="RUB"
+											checked>
+										RUB</label>
+									<label style="margin-right: 10px"><input type="radio" name="currency" value="USD">
+										USD</label>
+									<label style="margin-right: 10px"><input type="radio" name="currency" value="EUR">
+										EUR</label>
+									<label><input type="radio" name="currency" value="UAH"> UAH</label>
+								</div>
+								<input class="submit g-btn_lr" type="submit" value="ВНЕСТИ ПРЕДОПЛАТУ">
+								<div style="text-align: left; font-size: 12px; margin-top: 10px">
+									Нажимая на кнопку "ВНЕСТИ ПРЕДОПЛАТУ", я даю свое согласие на обработку моих
+									персональных
+									данных, а также соглашаюсь с публичной офертой и политикой конфиденциальности</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
 
-    </div>
+			</div>
 
-<footer class="footer">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-sm-6 col-lg-auto">
-                        <p class="rights">
-                            © 2020 Анастасия Говоркова — <br class="d-sm-none"> Все права защищены.
-                        </p>
-                        <p>
-                            <a href="https://ibc.eco/docs/public_offer_new.PDF" style="text-decoration: underline;">
-                                Публичная оферта
-                            </a>
-                        </p>
-                        <p>
-                            <a href="https://ibc.eco/docs/privacy_policy_new.PDF" style="text-decoration: underline;">
-                                Политика конфиденциальности
-                            </a>
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
-                        <p class="phone">
-                            <a href="tel:+74993227786">+7 499 322 77 86</a>
-                        </p>
-                        <p class="phone">
-                            <a href="tel:+380443317368">+38 044 331 73 68</a>
-                        </p>
-                        <p class="mail">
-                            <a href="mailto:office@ibc.eco">office@ibc.eco</a>
-                        </p>
-                        <div class="social d-flex align-items-center">
-                            <p>Присоединяйтесь:</p>
-                            <div class="soc d-flex">
-                                <a target="_blank" href="https://www.facebook.com/ico575/"><i class="fab fa-facebook-f"></i></a>
-                                <a target="_blank" href="https://vk.com/wowgovorkova"><i class="fab fa-vk"></i></a>
-                                <a target="_blank" href="https://www.instagram.com/wowgovorkova/"><i class="fab fa-instagram"></i></a>
-                                <a target="_blank" href="https://www.youtube.com/channel/UC0T06R2TOCBzPm5Y9X5RdJg"><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+		</div>
+	</div>
 
-        <script type="text/javascript" src="/new-masterstvo/vkl/js/jquery.min.js"></script>
+	<footer class="footer">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12 col-sm-6 col-lg-auto">
+					<p class="rights">
+						© 2020 Анастасия Говоркова — <br class="d-sm-none"> Все права защищены.
+					</p>
+					<p>
+						<a href="https://ibc.eco/docs/public_offer_new.PDF" style="text-decoration: underline;">
+							Публичная оферта
+						</a>
+					</p>
+					<p>
+						<a href="https://ibc.eco/docs/privacy_policy_new.PDF" style="text-decoration: underline;">
+							Политика конфиденциальности
+						</a>
+					</p>
+				</div>
+				<div
+					class="col-12 col-sm-6 col-lg d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+					<p class="phone">
+						<a href="tel:+74993227786">+7 499 322 77 86</a>
+					</p>
+					<p class="phone">
+						<a href="tel:+380443317368">+38 044 331 73 68</a>
+					</p>
+					<p class="mail">
+						<a href="mailto:office@ibc.eco">office@ibc.eco</a>
+					</p>
+					<div class="social d-flex align-items-center">
+						<p>Присоединяйтесь:</p>
+						<div class="soc d-flex">
+							<a target="_blank" href="https://www.facebook.com/ico575/"><i
+									class="fab fa-facebook-f"></i></a>
+							<a target="_blank" href="https://vk.com/wowgovorkova"><i class="fab fa-vk"></i></a>
+							<a target="_blank" href="https://www.instagram.com/wowgovorkova/"><i
+									class="fab fa-instagram"></i></a>
+							<a target="_blank" href="https://www.youtube.com/channel/UC0T06R2TOCBzPm5Y9X5RdJg"><i
+									class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- <script type="text/javascript" src="/new-masterstvo/vkl/js/jquery.min.js"></script>
         <script type="text/javascript" src="/new-masterstvo/vkl/js/jquery.magnific-popup.js"></script>
         <script type="text/javascript" src="/new-masterstvo/vkl/js/bootstrap.min.js"></script>
         <script src="/public/js/js.cookie.js"></script>
-        <script src="/public/js/set-cookies.js"></script>
+        <script src="/public/js/set-cookies.js"></script> -->
 
-        <script>
+	<!-- <script>
+		$('.popup_form').click(function (e) {
+			e.preventDefault();
+			var t = $(this).attr('href');
+			$.magnificPopup.open({
+				items: {
+					src: t
+				}
+			});
+		});
 
-            $('.popup_form').click(function (e) {
-                e.preventDefault();
-                var t = $(this).attr('href');
-                $.magnificPopup.open({
-                    items: {
-                        src: t
-                    }
-                });
-            });
+		function getCookie(c_name) {
+			var i, x, y, ARRcookies = document.cookie.split(";");
+			for (i = 0; i < ARRcookies.length; i++) {
+				x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+				y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+				x = x.replace(/^\s+|\s+$/g, "");
+				if (x == c_name) {
+					return unescape(y);
+				}
+			}
+		}
 
-            function getCookie(c_name) {
-                var i, x, y, ARRcookies = document.cookie.split(";");
-                for (i = 0; i < ARRcookies.length; i++) {
-                    x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
-                    y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
-                    x = x.replace(/^\s+|\s+$/g, "");
-                    if (x == c_name) {
-                        return unescape(y);
-                    }
-                }
-            }
+		function setCookie(c_name, value, exdays) {
+			var exdate = new Date();
+			exdate.setDate(exdate.getDate() + exdays);
+			var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+			document.cookie = c_name + "=" + c_value;
+		}
 
-            function setCookie(c_name, value, exdays) {
-                var exdate = new Date();
-                exdate.setDate(exdate.getDate() + exdays);
-                var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
-                document.cookie = c_name + "=" + c_value;
-            }
+		function timer() {
+			var end = new Date(2020, 1, 20, 12);
 
-            function timer() {
-                var end = new Date(2020, 1, 20, 12);
-
-                // var end2 = new Date();
-                // end2.setHours(24,0,0,0);
-
-
-                var _milisec = 10;
-                var _second = _milisec * 100;
-                var _minute = _second * 60;
-                var _hour = _minute * 60;
-                var _day = _hour * 24;
-
-                function showRemaining() {
-                    var now = new Date();
-                    var distance = end - now;// every 2 hours
+			// var end2 = new Date();
+			// end2.setHours(24,0,0,0);
 
 
-                    if (distance < 0) {
+			var _milisec = 10;
+			var _second = _milisec * 100;
+			var _minute = _second * 60;
+			var _hour = _minute * 60;
+			var _day = _hour * 24;
 
-                        $('.hide_on_end').hide();
-                        $('.show_on_end').show();
-                        $('.last-button').addClass('lastChance');
-                        $('.hour').text("00");
-                        $('.min').text("00");
-                        $('.sec').text("00");
-                        $('.mili').text("00");
-                        end = new Date(2020, 1, 20);
-                        setCookie('countdown9', end.getTime(), 14);
-                        return;
+			function showRemaining() {
+				var now = new Date();
+				var distance = end - now; // every 2 hours
 
-                    }
 
-                    // $('.record, .open-popup').show();
-                    var days = Math.floor(distance / _day);
-                    var hours = Math.floor((distance % _day) / _hour);
-                    var minutes = Math.floor((distance % _hour) / _minute);
-                    var seconds = Math.floor((distance % _minute) / _second);
-                    var miliseconds = Math.floor((distance % _second) / _milisec);
+				if (distance < 0) {
 
-                    if (seconds < 10) seconds = '0' + seconds;
-                    if (minutes < 10) minutes = '0' + minutes;
-                    if (hours < 10) hours = '0' + hours;
-                    if (days < 10) days = '0' + days;
+					$('.hide_on_end').hide();
+					$('.show_on_end').show();
+					$('.last-button').addClass('lastChance');
+					$('.hour').text("00");
+					$('.min').text("00");
+					$('.sec').text("00");
+					$('.mili').text("00");
+					end = new Date(2020, 1, 20);
+					setCookie('countdown9', end.getTime(), 14);
+					return;
 
-                    $('.day').text(days);
-                    $('.hour').text(hours);
-                    $('.min').text(minutes);
-                    $('.sec').text(seconds);
-                    $('.mili').text(miliseconds);
-                };
+				}
 
-                setInterval(showRemaining, 10);
-            }
+				// $('.record, .open-popup').show();
+				var days = Math.floor(distance / _day);
+				var hours = Math.floor((distance % _day) / _hour);
+				var minutes = Math.floor((distance % _hour) / _minute);
+				var seconds = Math.floor((distance % _minute) / _second);
+				var miliseconds = Math.floor((distance % _second) / _milisec);
 
-            timer();
+				if (seconds < 10) seconds = '0' + seconds;
+				if (minutes < 10) minutes = '0' + minutes;
+				if (hours < 10) hours = '0' + hours;
+				if (days < 10) days = '0' + days;
 
-</script>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+				$('.day').text(days);
+				$('.hour').text(hours);
+				$('.min').text(minutes);
+				$('.sec').text(seconds);
+				$('.mili').text(miliseconds);
+			};
 
-   ym(56247925, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/56247925" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1569985086487840');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1569985086487840&ev=PageView&noscript=1" /></noscript>
-<!-- End Facebook Pixel Code -->
+			setInterval(showRemaining, 10);
+		}
+
+		timer();
+	</script> -->
+
 
 </body>
 

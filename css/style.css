@@ -670,7 +670,7 @@ ul {
 }
 .pro-container h1 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Geometria', Arial, sans-serif;
   line-height: 1.2;
   font-weight: 700;
@@ -700,5 +700,158 @@ ul {
   background-position: center center;
   border-color: transparent;
   border-style: solid;
-  padding: 0px 25px 0px 10px;
+  padding: 0px 15px;
+}
+
+
+/*  */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body .footer {
+    padding: 45px 0;
+}
+
+body.thanks .thanks-header .container {
+    padding-top: 5px !important;
+}
+
+body .footer .container {
+    display: flex;
+}
+
+body .footer p {
+    font-size: 16px;
+    color: #9f9f9f;
+}
+
+body .footer a {
+    color: #9f9f9f;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+body .footer .mail a {
+    text-decoration: underline;
+}
+
+body .footer .phone a {
+    white-space: nowrap;
+}
+
+body .footer .mail a:hover {
+    text-decoration: none;
+}
+
+body .footer .social {
+    margin: 10px 0 0 17px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+body .footer .social .soc a {
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 15px;
+    border: 1px solid #c3c3c3;
+    border-radius: 50%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c3c3c3;
+}
+
+body .footer .social .soc a:hover {
+    background: #c3c3c3;
+    color: #ffffff;
+}
+
+body .footer p {
+    white-space: normal;
+}
+
+body .footer .fl-left {
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+body .footer .fl-right {
+    width: 100%;
+}
+
+body .footer .fl-right p {
+    margin-bottom: 10px;
+}
+
+body .footer .fl-right a {
+    text-decoration: underline;
+}
+
+body .footer .soc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 50px
+    }
+
+    body .footer p {
+        margin-right: 0;
+    }
+
+    .g-btn_lr {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body .footer p:not(:last-of-type) {
+        margin-right: 17px;
+    }
+
+    .item.two {
+        transform: scale(1.1);
+    }
+}
+
+.z1 {
+    z-index: 1;
+}
+.z2 {
+    z-index: 2;
+}
+
+.pro-container::before {
+    content: '';
+    position: absolute;
+    width: 50vw;
+    height: 100%;
+    background-image: url('../img/bg.png');
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+.g-container::before {
+    content: '';
+    position: absolute;
+    width: 50vw;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+    left: 0;
+    top: 0;
 }
