@@ -90,7 +90,61 @@
 		</div>
 	</div>
 
-	<footer class="footer">
+
+
+
+	<div class=" py-5">
+		<div class="container">
+			<div id="rec181303475" class="r t-rec t-rec_pt_0 t-rec_pb_0" data-animationappear="off"
+				data-record-type="415" data-bg-color="#10356c">
+				<!-- t415 -->
+				<!-- cover -->
+				<div class="t-cover" id="recorddiv181303475" bgimgfield="img">
+					<div class="t-cover__carrier" id="coverCarry181303475" data-content-cover-id="181303475"
+						data-content-cover-bg="" data-content-cover-height="150px" data-content-cover-parallax=""></div>
+					<div class="t-cover__filter">
+					</div>
+					<div class="t415">
+						<div class="t-container">
+							<div class="t-width t-width_12 t415__mainblock">
+								<div class="t-cover__wrapper t-valign_middle">
+									<div class="t415__content" data-hook-content="covercontent">
+										<div id="t415__timer181303475" class="t415__timer">
+											<div class="t415__col "> <span
+													class="t415__days t-title t-title_lg t415__number"></span>
+												<div class="t415__text t-descr t-descr_xxs">Дней</div>
+											</div>
+											<div class="t415__col"> <span
+													class="t415__hours t-title t-title_lg t415__number"></span>
+												<div class="t415__text t-descr t-descr_xxs">Часов</div>
+											</div>
+											<div class="t415__col"> <span
+													class="t415__minutes t-title t-title_lg t415__number"></span>
+												<div class="t415__text t-descr t-descr_xxs">Минут</div>
+											</div>
+											<div class="t415__col"> <span
+													class="t415__seconds t-title t-title_lg t415__number"></span>
+												<div class="t415__text t-descr t-descr_xxs">Секунд</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- / timer -->
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<footer class="footer mt-5">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-12 col-sm-6 col-lg-auto">
@@ -230,6 +284,86 @@
 		timer();
 	</script> -->
 
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			function getTimeRemaining(endtime) {
+				endtime = '2020-08-10T16:30:00'
+				var t = Date.parse(endtime) - Date.parse(new Date());
+				if (t < 0) {
+					var seconds = 0;
+					var minutes = 0;
+					var hours = 0;
+					var days = 0;
+					$('.b_hide').hide();
+				} else {
+					var seconds = Math.floor((t / 1000) % 60);
+					var minutes = Math.floor((t / 1000 / 60) % 60);
+					var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+					var days = Math.floor(t / (1000 * 60 * 60 * 24));
+				}
+				return {
+					'total': t,
+					'days': days,
+					'hours': hours,
+					'minutes': minutes,
+					'seconds': seconds
+				};
+			}
+
+			function initializeClock(id, endtime) {
+				var clock = document.getElementById(id);
+				if (!clock) {
+					console.log('Block with timer not found');
+					return;
+				}
+				var daysSpan = clock.querySelector('.t415__days');
+				var hoursSpan = clock.querySelector('.t415__hours');
+				var minutesSpan = clock.querySelector('.t415__minutes');
+				var secondsSpan = clock.querySelector('.t415__seconds');
+
+				function updateClock() {
+					var t = getTimeRemaining(endtime);
+					if (t.days >= 100) {
+						daysSpan.innerHTML = t.days;
+					} else {
+						daysSpan.innerHTML = ('0' + t.days).slice(-2);
+					}
+					hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+					minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+					secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+					if (t.total <= 0) {
+						clearInterval(timeinterval);
+					}
+				}
+				updateClock();
+				var timeinterval = setInterval(updateClock, 1000);
+			}
+			var deadline_date = $.trim("2020-04-23");
+			var deadline_time = $.trim("19:00");
+			var deadline_utc = $.trim("+03:00");
+			if (deadline_utc.charAt(0) !== "-" && deadline_utc.charAt(0) !== "+") {
+				deadline_utc = "+" + deadline_utc;
+			}
+			var deadline = new Date(deadline_date + 'T' + ("0" + deadline_time).slice(-5) + deadline_utc);
+			initializeClock('t415__timer181303475', deadline);
+		});
+	</script>
+	<style>
+		#rec181303475 .t-btn[data-btneffects-first],
+		#rec181303475 .t-btn[data-btneffects-second],
+		#rec181303475 .t-submit[data-btneffects-first],
+		#rec181303475 .t-submit[data-btneffects-second] {
+			position: relative;
+			overflow: hidden;
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+		}
+	</style>
+	<script type="text/javascript">
+		$(document).ready(function () {});
+	</script>
 
 </body>
 

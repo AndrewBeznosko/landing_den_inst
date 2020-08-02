@@ -855,3 +855,40 @@ body .footer .soc {
     left: 0;
     top: 0;
 }
+
+/* timer */
+
+.t-title_lg {
+    font-size: 64px;
+    line-height: 1.23;
+    font-weight: bold;
+}
+
+.t415__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t415__text {
+    color: #10356c;
+    padding-bottom: 7px;
+}
+
+.t-descr_xxs {
+    font-size: 14px;
+    line-height: 1.55;
+}
+
+.t415__number {
+    color: #10356c;
+}
+
+.t415__timer {
+    display: flex;
+    justify-content: center;
+}
+
+.t415__col + .t415__col {
+    margin-left: 60px;
+}
