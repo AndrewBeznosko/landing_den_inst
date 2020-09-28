@@ -6418,7 +6418,7 @@ body .speakers .s-block .subs .min-title {
 
 .carusel-notebook-wrapper {
   margin-top: 50px;
-  margin-left: -10px;
+  margin-left: -110px;
   margin-right: 100px;
   position: relative;
   z-index: 1;
@@ -6667,6 +6667,40 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
   color: #000;
 
 }
+.status .arrows a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #201f26;
+    text-decoration: none;
+    outline: none;
+    opacity: 1;
+    margin: auto;
+    top: 100%;
+    right: 8rem;
+}
+.status .arrows a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-width: 2px;
+    border-color: #fff;
+    border-bottom-style: solid;
+    width: 15px;
+    height: 15px;
+}
+.status .arrows a:hover {
+    opacity: 0.6;
+}
+.status .arrows a.carousel-control-next::before {
+    border-right-style: solid;
+    transform: rotate(-45deg);
+    right: 3px;
+}
 .status .wepster-hash-1ut74e {
   margin-bottom: 1em;
 }
@@ -6765,7 +6799,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
     background: url("../images/content/arrow.svg") center no-repeat;
     background-size: cover;
     position: absolute;
-    top: 89%;
+    top: 50%;
     right: 3em;
     transform: rotate(-60deg);
   }
@@ -6863,7 +6897,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
 
 .container {
   width: 100%;
-  max-width: 1365px;
+  max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
 }
