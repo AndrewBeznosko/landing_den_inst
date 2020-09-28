@@ -6665,6 +6665,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
   font-family: "Futura PT", sans-serif;
   font-weight: 500;
   color: #000;
+  position: relative;
 
 }
 .status .arrows a {
@@ -6678,6 +6679,9 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
     margin: auto;
     top: 100%;
     right: 8rem;
+    position: initial;
+    transform: rotate(90deg);
+    opacity: 0.3;
 }
 .status .arrows a::before {
     position: absolute;
@@ -6701,12 +6705,24 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
     transform: rotate(-45deg);
     right: 3px;
 }
+
+.arrows--absolute {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .status .wepster-hash-1ut74e {
   margin-bottom: 1em;
 }
 @media (max-width: 767px) {
   .status__ask {
     margin-bottom: 1em;
+  }
+
+  .status .arrows {
+    display: none;
   }
 }
 @media (min-width: 768px) {
