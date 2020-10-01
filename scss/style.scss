@@ -368,7 +368,7 @@ body {
         font-size: 18px;
         color: #fff;
         width: 260px;
-        background: #1e82ff;
+        background: #d91515;
         text-align: center;
         padding: 24px 0px;
         float: right;
@@ -376,7 +376,7 @@ body {
         cursor: pointer;
         border-radius: 5px;
         border: 0;
-        border-bottom: 3px #1868cc solid;
+        border-bottom: 3px #c81010 solid;
         display: block;
         margin-top: 0px;
         -webkit-transition: all .2s linear;
@@ -392,7 +392,7 @@ body {
     button.g_button:hover {
         cursor: pointer;
         box-shadow: none;
-        background: #206cca;
+        background: #c81010;
     }
 
     button.g_button.disabled,
