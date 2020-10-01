@@ -3038,15 +3038,16 @@ h-overflow-hidden {
 
 .lgt-social-buttons {
 	display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 35px 0 100px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media (max-width: 767.98px) {
     .lgt-social-buttons {
         display: flex;
-        flex-wrap: nowrap;
-        margin: 35px 0 0px;
+        margin: 10px 0 0px;
     }
 }
 
@@ -3057,16 +3058,31 @@ h-overflow-hidden {
 }
 
 .lgt-social-buttons .social-button {
-	font-size: 11px;
-	transition: .3s ease-in-out;
-	justify-content: space-between;
-	cursor: pointer;
-	outline: none;
-	padding: 4px 0 8px;
-	color: #fff;
-	width: 100%;
+    font-size: 11px;
+    transition: .3s ease-in-out;
+    justify-content: space-between;
+    cursor: pointer;
+    outline: none;
+    padding: 4px 0 8px;
+    color: #fff;
+    width: 100%;
     border: none;
     text-align: center;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 0;
+    border-radius: 4px !important;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+    .lgt-social-buttons .social-button {
+        width: 100%;
+        margin: 10px 0 0;
+        font-size: 16px;
+    }
 }
 
 .lgt-social-buttons  {
@@ -3092,7 +3108,7 @@ h-overflow-hidden {
 .lgt-social-buttons .icon {
 	width: 36px;
 	height: 36px;
-	margin: 0 auto;
+	margin-right: 20px;
 	text-align: center;
 	box-sizing: border-box;
 	padding: 6px
