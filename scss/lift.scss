@@ -4719,6 +4719,9 @@ font-weight: 900;;
 .sec-form {
     background-color: #eeeeee;
     padding: 60px 0 !important;
+    background-image: url('../img/111.jpg');
+    background-size: cover;
+    background-position: center center;
 
     &__col-left {
         padding-right: 60px !important;
@@ -4935,15 +4938,15 @@ font-weight: 900;;
     // }
 }
 
-.timer-styled { 
+.timer-styled {
     background: #d91515 !important;
     box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
     color: #fff !important;
     padding: 0 15px !important;
-    border-radius: 4px !important;  
+    border-radius: 4px !important;
 
     .pwCountDown {
-        color: #fff !important;   
+        color: #fff !important;
     }
 }
 
@@ -4992,8 +4995,8 @@ font-weight: 900;;
         }
 
         &__author-name {
-            font-size: 22px;
-            line-height: 1.2;
+            font-size: 20px;
+            line-height: 1;
             margin-bottom: 5px !important;
         }
 
@@ -5020,6 +5023,11 @@ font-weight: 900;;
 
         &__undertitle {
             font-size: 17px;
+        }
+
+        &__input {
+            height: 40px;
+            margin-bottom: 10px !important;
         }
     }
 
@@ -5066,7 +5074,7 @@ font-weight: 900;;
         }
 
         .header_form {
-            margin-top: 30px !important; 
+            margin-top: 30px !important;
         }
     }
 
