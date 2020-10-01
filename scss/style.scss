@@ -172,7 +172,7 @@ body {
     }
 
     .bg {
-        background-image: url(../img/bg.jpg);
+        background-image: url("../img/111.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -190,9 +190,7 @@ body {
         content: '';
         display: block;
         z-index: 0;
-        background: url(../img/grad.png) center no-repeat;
         background-size: cover;
-        opacity: 0.5;
     }
 
     header .container {
@@ -542,7 +540,6 @@ body {
     }
 
     #maps {
-        color: #fff;
         // margin-bottom: 160px;
         background-size: cover;
         padding: 80px 0 150px 0;
@@ -1037,6 +1034,7 @@ body {
     .footer {
         padding: 50px 0;
         color: gray;
+        background-color: #eee;
 
         a {
             color: gray;

@@ -1975,7 +1975,6 @@ font-weight: 900;;
 
     .end-item__title {
         font-size: 14px;
-        color: white;
     }
 
     @media (max-width:767px) {
@@ -3185,7 +3184,7 @@ font-weight: 900;;
 
     .programm-item__info-cube {
         padding: 10px 10px 20px 10px;
-        border: 5px solid #1e82ff;
+        border: 5px solid #f70f31;
         ;
     }
 
@@ -3205,7 +3204,7 @@ font-weight: 900;;
         font-family: 'proxima_nova';
         font-weight: bold;
         // font-size: 14px;
-        // text-transform: lowercase 
+        // text-transform: lowercase
     }
 
     @media (min-width:1025px) {
@@ -3222,7 +3221,7 @@ font-weight: 900;;
     }
 
     .programm-item__info-date_2 {
-        background-color: #1e82ff;
+        background-color: #f70f31;
     }
 
     .programm-item__info-title {
@@ -3242,7 +3241,7 @@ font-weight: 900;;
     }
 
     .programm-item__info-subtitle_2 {
-        color: #1e82ff;
+        color: #f70f31;
     }
 
     .programm-item__info-name {
@@ -3284,7 +3283,7 @@ font-weight: 900;;
     }
 
     .programm-item__content-title_2 {
-        color: #2c8aff;
+        color: #ec0b2c;
     }
 
     .programm-item__list {
@@ -3329,7 +3328,7 @@ font-weight: 900;;
     }
 
     .programm-item__list_2 li:before {
-        background-color: #2c8aff;
+        background-color: #ec0b2c;
         -webkit-box-shadow: 0 2px 6px 0 rgba(1, 152, 232, .51);
         box-shadow: 0 2px 6px 0 rgba(1, 152, 232, .51)
     }
@@ -4516,7 +4515,6 @@ font-weight: 900;;
                 .insta a {
                     color: #656565;
                     text-decoration: none;
-                    pointer-events: none;
                 }
             }
 
@@ -4717,9 +4715,7 @@ font-weight: 900;;
 }
 
 .sec-form {
-    background-color: #eeeeee;
     padding: 60px 0 !important;
-    background-image: url('../img/111.jpg');
     background-size: cover;
     background-position: center center;
 
@@ -5069,7 +5065,7 @@ font-weight: 900;;
             }
 
             &:last-of-type {
-                // margin-bottom: 40px !important; 
+                // margin-bottom: 40px !important;
             }
         }
 
