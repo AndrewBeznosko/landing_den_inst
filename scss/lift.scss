@@ -3199,12 +3199,13 @@ font-weight: 900;;
 
     .programm-item__info-date {
         display: inline-block;
-        padding: 5px 15px;
+        padding: 5px 10px;
         margin-bottom: 15px;
         margin-left: -15px;
         font-family: 'proxima_nova';
         font-weight: bold;
-        text-transform: lowercase
+        // font-size: 14px;
+        // text-transform: lowercase 
     }
 
     @media (min-width:1025px) {
@@ -4934,6 +4935,24 @@ font-weight: 900;;
     // }
 }
 
+.timer-styled { 
+    background: #d91515 !important;
+    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
+    color: #fff !important;
+    padding: 0 15px !important;
+    border-radius: 4px !important;  
+
+    .pwCountDown {
+        color: #fff !important;   
+    }
+}
+
+@media (min-width: 767.98px) {
+    .lg-none {
+        display: none;
+    }
+}
+
 @media (max-width: 767.98px) {
     .sec-form {
         padding: 10px 0 !important;
@@ -5024,16 +5043,43 @@ font-weight: 900;;
     .pwCountDown {
         font-size: 36px !important;
     }
-}
 
-.timer-styled { 
-    background: #d91515 !important;
-    box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.5);
-    color: #fff !important;
-    padding: 0 15px !important;
-    border-radius: 4px !important;  
+    .alien {
+        .map_item {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            text-align: left;
 
-    .pwCountDown {
-        color: #fff !important;   
+            img {
+                margin: 0 20px 0 0;
+                max-width: 50px;
+            }
+
+            br {
+                display: none;
+            }
+
+            &:last-of-type {
+                // margin-bottom: 40px !important; 
+            }
+        }
+
+        .header_form {
+            margin-top: 30px !important; 
+        }
+    }
+
+    .lift-page .end__header-title {
+        max-width: 100%;
+    }
+
+    .lift-page .speakers .s-block {
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+
+    .lift-page .speakers .speaker-block {
+        margin-bottom: 20px;
     }
 }
