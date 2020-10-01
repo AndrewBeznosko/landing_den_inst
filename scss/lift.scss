@@ -4718,6 +4718,7 @@ font-weight: 900;;
     padding: 60px 0 !important;
     background-size: cover;
     background-position: center center;
+    background-image: url("../img/111.jpg");
 
     &__col-left {
         padding-right: 60px !important;
@@ -4783,7 +4784,9 @@ font-weight: 900;;
         font-weight: 500;
     }
 }
-
+.sec-form2 {
+  background-image: none;
+}
 .b-form {
     border-width: 2px !important;
     background-color: #ffffff;
