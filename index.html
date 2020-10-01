@@ -1474,7 +1474,19 @@
                         <div class="row sec-form__row">
                             <div class="col-7 sec-form__col-left">
                                 <div class="sec-form__date-row">
-                                    <div class="sec-form__day-block"><img class="tn-atom__img t-img loaded" data-original="./index_files/icon_11.png" imgfield="tn_img_1589300675989" src="./index_files/icon_11.png">&nbsp; Завтра</div>
+                                    <div class="sec-form__day-block"><img class="tn-atom__img t-img loaded" data-original="./index_files/icon_11.png" imgfield="tn_img_1589300675989" src="./index_files/icon_11.png">
+                                        &nbsp; 
+                                        <script language="javascript" type="text/javascript">
+                                            var d = new Date();
+                                            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
+                                                "июля", "августа", "сентября", "октября", "ноября", "декабря");
+                                                if(d.getHours() < 15) {
+                                                    document.write(+d.getDate() + " " + month[d.getMonth()]);
+                                                } else {
+                                                    document.write(+d.getDate()+1 + " " + month[d.getMonth()]);   
+                                                }
+                                        </script>
+                                    </div>
                                     <div class="sec-form__time-block"><img class="tn-atom__img t-img loaded" data-original="./index_files/icon_12.png" imgfield="tn_img_1589300935176" src="./index_files/icon_12.png">&nbsp; 15:00 19:00 МСК / Киев</div>
                                 </div>
                                 <div class="sec-form__red-offer"><strong></strong>Бесплатный практический</strong> онлайн мастер-класс</div>
@@ -1486,11 +1498,11 @@
                                 <form class="b-form">
                                     <h3 class="b-form__title">Регистрируйтесь <strong>на Бесплатный мастер-класс</strong> и получите <strong>Бонус </strong>сразу после регистрации<strong>:</strong></h3>
                                     <h3 class="b-form__undertitle">Рабочую книгу «7 продающих шаблонов для Instagram которые работают»</h3>
-                                    <div class="b-form__form-group">
+                                    <div class="b-form__form-group alien">
                                         <input type="text" maxlength="60" class="f-input b-form__input" placeholder="Ваше имя" name="formParams[full_name]" value="">
                                         <input type="text" maxlength="60" class="f-input b-form__input" placeholder="Ваш e-mail" name="formParams[email]" value="">
                                         <input type="text" maxlength="60" class="f-input b-form__input" placeholder="Ваш телефон" name="formParams[phone]" value="">
-                                        <button type="submit" class="btn f-btn  button-md btn-success b-form__btn">УЧАСТВОВАТЬ БЕСПЛАТНО</button>
+                                        <button type="submit" class="btn f-btn  button-md btn-success b-form__btn btn-animate">УЧАСТВОВАТЬ БЕСПЛАТНО</button>
                                         <!-- <span class="b-form__agreement">Нажимая на кнопку, я даю свое согласие на обработку моих персональных данных, а также соглашаюсь с публичной офертой и политикой конфиденциальности<br>Ваши данные не будут переданы 3-м лицам</span> -->
                                     </div>
                                     <div class="bonuce-block">
@@ -1774,11 +1786,11 @@
                             <form class="b-form">
                                 <h3 class="b-form__title" style="width: 100%;"><strong>Бонус</strong> сразу после регистрации:</h3>
                                 <h3 class="b-form__undertitle">Рабочую книгу «7 продающих шаблонов для Instagram которые работают»</h3>
-                                <div class="b-form__form-group">
+                                <div class="b-form__form-group alien">
                                     <input type="text" maxlength="60" class="f-input b-form__input" placeholder="Ваше имя" name="formParams[full_name]" value="">
                                     <input type="text" maxlength="60" class="f-input b-form__input" placeholder="Ваш e-mail" name="formParams[email]" value="">
                                     <input type="text" maxlength="60" class="f-input b-form__input" placeholder="Ваш телефон" name="formParams[phone]" value="">
-                                    <button type="submit" class="btn f-btn  button-md btn-success b-form__btn">УЧАСТВОВАТЬ БЕСПЛАТНО</button>
+                                    <button type="submit" class="btn f-btn  button-md btn-success b-form__btn btn-animate">УЧАСТВОВАТЬ БЕСПЛАТНО</button>
                                     <span class="b-form__agreement">Нажимая на кнопку, я даю свое согласие на обработку моих персональных данных, а также соглашаюсь с публичной офертой и политикой конфиденциальности<br>Ваши данные не будут переданы 3-м лицам</span>
                                 </div>
                             </form>
