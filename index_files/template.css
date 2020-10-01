@@ -6773,7 +6773,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
 
 @media (min-width: 1024px) {
   .status__title--big {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -6801,7 +6801,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
 
 @media (min-width: 1024px) {
   .status__title--success {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -6869,6 +6869,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
 
 .status__text {
   margin-bottom: 1em;
+  font-size: 18px;
 }
 
 .status__list {
@@ -6901,13 +6902,15 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
 
 .status__steps {
   margin-bottom: 0.5em;
+  font-size: 18px;
 }
 
 .status__step {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   padding-left: 1em;
   display: flex;
   margin-bottom: 0.5em;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
