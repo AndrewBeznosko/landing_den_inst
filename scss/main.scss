@@ -132,7 +132,7 @@
     hgroup,
     main,
     menu,
-    nav,
+    nav, 
     section,
     summary {
         display: block
@@ -5090,3 +5090,8 @@ font-weight: 900;;
         margin-bottom: 20px;
     }
 }
+
+
+@import 'style';
+@import 'reveal';
+@import 'responsive';
