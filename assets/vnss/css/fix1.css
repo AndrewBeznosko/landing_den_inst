@@ -1,0 +1,87 @@
+body .header {
+    padding: 0;
+  }
+
+.buttons{
+	margin-top: 20px;
+}
+.header-span {
+    margin-top: -17px;
+}
+p.header-adds {
+    transform: rotate(-12deg);
+    font-size: 30px;
+    display: block;
+    width: 66%;
+    line-height: 41px;
+    font-family: "Cera Pro";
+    padding: 27px 20px 27px 20px;
+}
+@media (max-width: 992px){
+	.header-span {
+    margin-top: 35px;
+}
+p.header-adds {
+    width: 72%;
+    padding: 27px 20px 27px 20px;
+    position: relative;
+    top: 62px;
+}
+}
+@media (max-width: 768px){
+.order-lg-1 {
+    position: relative;
+    top: -677px;
+    right: 240px;
+}
+.buttons {
+    margin-top: 0px;
+    position: relative;
+    top: 140px;
+}	
+}
+@media (max-width: 414px){
+.header-span {
+ margin-top: -4px;
+}
+body .header .h-row .h-img img {
+    max-width: 240px;
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+p.header-adds {
+    width: 72%;
+    padding: 27px 20px 27px 20px;
+    position: relative;
+    top: -32px;
+    left: -59px;
+}
+.buttons {
+    margin-top: 0px;
+    position: relative;
+    top: 469px;
+    left: 227px;
+}
+.order-lg-2 {
+    position: relative;
+    z-index: 2;
+    transform: rotate(12deg);
+    margin-left: 111px;
+    top: -7px;
+}	
+body .header .h-bottom {
+    text-align: left;
+    margin: -145px 0 0 50px;
+}
+}
+
+@media (max-width: 375px){
+	p.header-text-1, p.header-text-2 {
+    font-size: 12px;
+    width: 55%;
+}
+p.header-text-2{
+  width: 48%;
+}
+}
