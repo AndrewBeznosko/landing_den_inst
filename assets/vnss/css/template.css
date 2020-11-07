@@ -4525,8 +4525,8 @@ body .proposion-time .prices {
 }
 body .proposion-time .prices .discount {
   position: absolute;
-  right: -60px;
-  top: 9px;
+  right: -108px;
+  top: 18px;
   color: #ff335e;
   font-size: 37px;
   line-height: 42px;
@@ -4656,6 +4656,7 @@ body .action-end.active {
 
   body .new_header .title {
     font-size: 30px;
+    margin-top: 0;
   }
   body .new_header {
     padding: 29px 0 50px 0;
@@ -4667,6 +4668,7 @@ body .action-end.active {
   body .new_header p.h-2 {
     font-size: 16px;
     line-height: 21px;
+    margin-top: 10px;
   }
   body .new_header .container {
     min-height: 0;
@@ -4950,6 +4952,10 @@ body .month .program .p-row .row>div {
 
 body .month .program .p-row .pp-left .min-title:not(.mtt-1) {
   margin: 13px 0 18px 0;
+}
+
+body .month .program .p-row .pp-left .min-title span{
+  text-decoration: line-through;
 }
 
 body .month .program .p-row .pp-left .mtt-1 {
@@ -5267,13 +5273,14 @@ body .create .order {
 }
 
 body .footer {
-  padding: 50px 0 31px 0;
+  padding: 30px 0 31px 0;
   background-color: #f5f5f5;
 }
 
 body .footer p {
   font-size: 16px;
   color: #9f9f9f;
+  margin: 25px 0 0 0;
 }
 
 body .footer p:not(:last-of-type) {
@@ -6569,4 +6576,103 @@ body .header .h-bottom {
     left: 105px;
     top: 325px;
 }
+}
+body .bottoms {
+  text-align: center;
+  padding: 20px 0 80px 0;
+}
+body .bottoms .cube {
+  position: absolute;
+  right: 0;
+  top: -55px;
+}
+body .bottoms p {
+  font-size: 24px;
+  line-height: 27px;
+}
+body .bottoms p.bt-1 {
+  margin: 10px 0 0px 0;
+}
+body .bottoms p.bt-2 {
+  margin: 30px 0 23px 0;
+}
+body .bottoms p.bt-3 {
+  color: #000000;
+  margin: 0 0 25px 0;
+  font-weight: 600;
+}
+body .bottoms p.bt-4 {
+  margin: 15px 0 0 0;
+}
+body .bottoms .prices {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0 25px 0;
+}
+body .bottoms .prices .discount {
+  color: #000000;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+  margin: 0 5px;
+}
+body .bottoms .prices .old {
+  color: #7b7b7b;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+}
+body .bottoms .prices .old span {
+  display: inline-block;
+  position: relative;
+}
+body .bottoms .prices .old span:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 13px;
+  width: 100%;
+  height: 3px;
+  background: #ff5151;
+  transform: rotate(-11deg);
+}
+body .bottoms .prices .new {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 700;
+  color: #ff315f;
+}
+body .bottoms .order a {
+  font-size: 30px;
+  line-height: 33px;
+  max-width: 733px;
+  border: 4px solid #ff2d61;
+}
+body .bottoms .order.or-1 a {
+  background: #ff2865;
+}
+body .bottoms .order.or-1 a:hover {
+  background: none;
+  color: #ff2d61;
+}
+body .bottoms .order.or-2 a {
+  background: none;
+  color: #ff2b63;
+}
+body .bottoms .order.or-2 a:hover {
+  color: #ffffff;
+  background: #ff2d61;
+}
+body .bottoms .for-timer {
+  margin: 30px 0 0 0;
+}
+body .bottoms .for-timer p {
+  font-size: 30px;
+  line-height: 33px;
+  margin: 0 0 18px;
 }
