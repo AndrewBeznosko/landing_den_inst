@@ -4322,7 +4322,7 @@ body .title.big {
 body p,
 body .title,
 body .min-title {
-  margin: 50px 0 0 0;
+  margin: 20px 0 0 0;
   position: relative;
   z-index: 2;
 }
@@ -5231,7 +5231,7 @@ body .create .for-title .min-title {
 }
 
 body .create .cr-row {
-  margin: 0 0 110px;
+  margin: 0 0 40px;
 }
 
 body .create .c-block {
@@ -5449,7 +5449,7 @@ body .modal#back-modal .modal-dialog .modal-content .m-bottom .min-title {
   }
 
   body .create {
-    padding: 80px 0;
+    padding: 10px 0;
   }
 }
 
@@ -6090,8 +6090,8 @@ body .form-modal .modal-dialog {
 }
 
 .form-modal .title {
-  font-size: 45px;
-  line-height: 55px;
+  font-size: 32px;
+  line-height: 30px;
   font-weight: 600;
   text-transform: initial;
 }
@@ -6120,7 +6120,7 @@ body .form-modal .modal-dialog .modal-content .close {
 body .form-modal .modal-dialog .modal-content .modal-header {
   background-color: #f2f2f2;
   border: none;
-  padding: 35px 15px 35px 15px;
+  padding: 25px 15px 25px 15px;
   justify-content: center;
 }
 
@@ -6405,8 +6405,8 @@ p.header-text-2{
 
 @media (max-width: 768px) {
   .form-modal .title {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
   }
 
   .header .h-top {
