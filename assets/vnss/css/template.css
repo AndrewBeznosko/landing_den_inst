@@ -4284,6 +4284,7 @@ body {
   color: #121212;
   margin: 0;
   background: #FFF;
+  overflow-x: hidden;
   background: url(../images/top-bg.jpg) no-repeat center top, url(../images/bottom-bg.jpg) no-repeat center bottom -45px;
 }
 
@@ -4587,6 +4588,7 @@ body .proposion-time .prp-2 {
   line-height: 21px;
   opacity: 0.7;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 body .clock {
   font-size: 46px;
@@ -4955,6 +4957,10 @@ body .month .program .p-row .pp-left .min-title:not(.mtt-1) {
 }
 
 body .month .program .p-row .pp-left .min-title span{
+  color: grey;
+}
+
+body .month .program .p-row .pp-left .min-title span .line-through {
   text-decoration: line-through;
 }
 
