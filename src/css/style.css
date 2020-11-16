@@ -245,6 +245,11 @@ ol li:before {
   background-size: cover !important;
 }
 
+.img.yanku {
+  background: url('../img/speaker/yanku.jpg') #efefef no-repeat center center !important;
+  background-size: cover !important;
+}
+
 .img.plakhotnyk {
   background: url('../img/speaker/plakhotnyk.jpg') #efefef no-repeat center center !important;
   background-size: cover !important;
@@ -1605,22 +1610,23 @@ ol li:before {
 
   .banner-bg {
     position: absolute;
-    right: -45px;
-    top: -50px;
+    right: -50px;
+    top: -15px;
     z-index: -1;
-    width: 435px;
+    width: 100%;
     height: 490px;
     background: url(../img/banner-bg2.png) center top no-repeat;
     background-size: cover;
-    transition: 0.2s;
+    transition: 0.3s;
+    z-index: 1;
   }
 
   .banner-bg-shadow {
-    position: absolute;
+    /* position: absolute; */
     right: -60px;
     top: -15px;
     z-index: -2;
-    width: 450px;
+    width: 100%;
     height: 475px;
     transition: 0.2s;
     background: #dae5f5;
@@ -1628,9 +1634,9 @@ ol li:before {
   }
 
   .banner-active .banner-bg {
-    background: url(../img/banner-bg.png) right top no-repeat;
-    background-size: cover;
-    transition: 0.2s;
+    background: url(../img/banner-bg.png) center top no-repeat;
+    background-size: 210% auto;
+    transition: 0.3s;
   }
 
   .banner-active .banner .title span {
@@ -2244,7 +2250,7 @@ body .you .y-block p {
   }
 
   body .you {
-    padding: 55px 0 75px 0;
+    padding: 0 0 75px 0;
     text-align: center;
   }
 
@@ -2488,5 +2494,19 @@ body .footer .social .soc a:hover {
     background-size: contain !important;
     width: 21px !important;
     top: 5px !important;
+  }
+
+  body .title {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+
+  .this .title {
+    font-size: 21px;
+    line-height: 1.5;
+  }
+
+  .turn .title {
+    font-size: 24px;
   }
 }
