@@ -6655,7 +6655,7 @@ p.header-adds {
 
 body .bottoms {
   text-align: center;
-  padding: 20px 0 80px 0;
+  padding: 100px 0 80px 0;
 }
 
 body .bottoms .cube {
@@ -6841,5 +6841,108 @@ body .bottoms .for-timer p {
   100% {
     transform: rotateX(0deg);
     box-shadow: 3px 3px 13px -5px rgba(0, 0, 0, 0.4);
+  }
+}
+body .feeds .slider {
+  padding: 0 50px;
+  position: relative;
+  text-align: center;
+  margin: 60px 0 0 0;
+}
+
+body .feeds .slider img {
+  max-width: 490px;
+  max-height: 640px;
+}
+
+body .feeds .slider .arrows a {
+  background: none;
+  border-width: 2px;
+  border-color: #000;
+  border-bottom-style: solid;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+}
+
+body .feeds .slider .arrows .carousel-control-prev {
+  border-left-style: solid;
+  transform: rotate(45deg);
+  left: 0;
+}
+
+body .feeds .slider .arrows .carousel-control-next {
+  border-right-style: solid;
+  transform: rotate(-45deg);
+  right: 0;
+}
+
+body .feeds .slider .carousel-indicators {
+  left: 0;
+  bottom: -70px;
+  width: auto;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+
+body .feeds .slider .carousel-indicators li {
+  background: #e6e6e6;
+  border: none;
+  opacity: 1;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+}
+
+body .feeds .slider .carousel-indicators li:not(:last-of-type) {
+  margin-right: 14px;
+}
+
+body .feeds .slider .carousel-indicators li.active {
+  background: #ffb170;
+}
+
+@media (max-width: 767px) {
+  body .feeds .slider .carousel-indicators {
+    bottom: -45px;
+  }
+
+  body .feeds .slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+  }
+
+  body .feeds .slider .carousel-indicators li:not(:last-of-type) {
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .feeds {
+    padding: 20px 0 0px 0;
+  }
+
+  body .feeds .title {
+    margin: 0 0 30px 0;
+  }
+
+  body .feeds .slider {
+    padding: 0 30px;
+    margin: 30px 0 0 0;
+  }
+
+  body .feeds .slider .arrows a {
+    width: 14px;
+    height: 14px;
+  }
+
+  body .feeds .slider img {
+    max-width: 100%;
   }
 }
